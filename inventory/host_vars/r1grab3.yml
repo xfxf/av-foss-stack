@@ -3,7 +3,7 @@ irc_room_channel: "#lca2017_plenary"
 irc_nick: av_plenary_g3
 
 voctomix:
-  host: r1mix
+  host: 10.20.2.10
   port: 10003
 
 video_delay: 800
