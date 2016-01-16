@@ -1,5 +1,5 @@
 ---
 eth_uplink_mac_address: 60:a4:4c:b0:89:49
-eth_local_mac_address: a0:f3:c1:10:7f:7a
+eth_local_mac_address: 24:8a:07:79:87:d0
 eth_local_ip_address: 10.20.0.1/23
 dhcp_range: 10.20.1.1,10.20.1.254,6h
