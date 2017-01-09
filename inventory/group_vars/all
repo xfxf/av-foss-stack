@@ -3,8 +3,8 @@ user_name: videoteam
 user_password: useme
 pw_salt: Eyjidoi6bRd0HB8hovbN
 
-eth_local_mac_address: 80:3f:5d:08:c3:9d
-eth_uplink_mac_address: 3c:97:0e:7f:d9:4c
+eth_uplink_mac_address: 80:3f:5d:08:c3:9d
+eth_local_mac_address: 3c:97:0e:7f:d9:4c
 domain: lca2017.lan
 
 time_zone: Australia/Sydney
