@@ -1,0 +1,5 @@
+[dhcp-server]
+192.168.0.10 ansible_user=root
+
+[onsite]
+192.168.0.10
