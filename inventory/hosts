@@ -1,13 +1,15 @@
-[dhcp-server]
-gw1 ansible_user=root
-
 [onsite]
+gw1 ansible_user=root
+r1grab1 ansible_user=root
+r1mix ansible_user=root
+r2mix ansible_user=root
+
+[dhcp-server]
 gw1
-grabber1
-vocto1
 
 [opsis]
-grabber1
+r1grab1
 
 [voctomix]
-vocto1
+r1mix
+r2mix
