@@ -1,8 +1,8 @@
 [dhcp-server]
-192.168.0.10 ansible_user=root
+gw1 ansible_user=root
 
 [onsite]
-192.168.0.10
+gw1
 grabber1
 vocto1
 
