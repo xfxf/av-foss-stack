@@ -1,0 +1,4 @@
+---
+blackmagic_sources:
+- card: 0
+  connection: hdmi-audio
