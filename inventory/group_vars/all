@@ -9,6 +9,7 @@ domain: lca2017.lan
 
 time_zone: Australia/Sydney
 apt_proxy: http://10.20.0.1:8000/
+mirror: au.archive.ubuntu.com
 
 netboot_image: http://archive.ubuntu.com/ubuntu/dists/xenial/main/installer-amd64/current/images/netboot/netboot.tar.gz
 late_command_url: https://github.com/xfxf/lca2017-av/raw/master/inventory/late_command.sh
