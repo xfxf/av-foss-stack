@@ -1,5 +1,2 @@
 ---
 debconf_number: LCA
-blackmagic_desktopvideo_location: http://10.20.0.1/Blackmagic_Desktop_Video_Linux_10.8.4/deb/amd64/desktopvideo_10.8.4a4_amd64.deb
-blackmagic_desktopvideo_gui_location: http://10.20.0.1/Blackmagic_Desktop_Video_Linux_10.8.4/deb/amd64/desktopvideo-gui_10.8.4a4_amd64.deb
-blackmagic_mediaexpress_location: http://10.20.0.1/Blackmagic_Desktop_Video_Linux_10.8.4/deb/amd64/mediaexpress_3.5.3a1_amd64.deb
