@@ -26,8 +26,8 @@ r5grab1
 r6grab1
 
 # spares room
-rxmix
-rxgrab1
+rXmix
+rXgrab1
 
 [dhcp-server]
 gw1
@@ -41,7 +41,7 @@ r4mix
 r5mix
 r6mix
 
-rxmix
+rXmix
 
 [opsis]
 r1grab1
@@ -60,5 +60,5 @@ r4grab1
 r5grab1
 r6grab1
 
-rxmix
-rxgrab1
+rXmix
+rXgrab1
