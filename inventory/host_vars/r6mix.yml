@@ -1,0 +1,7 @@
+---
+room_name: wellington_2
+
+irc_room_channel: "#lca2017_wellington_2"
+irc_nick: videoteam_wellington_2
+
+alsa_device: hw:1,0

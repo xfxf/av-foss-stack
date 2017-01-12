@@ -1,4 +1,5 @@
 ---
+room_name: tasman_a
 voctomix:
   host: r2mix
   source: 1
