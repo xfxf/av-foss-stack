@@ -1,0 +1,4 @@
+eth_uplink_mac_address: 80:3f:5d:08:c3:9d
+eth_local_mac_address: 00:1e:37:8c:f8:16
+eth_local_ip_address: 10.20.0.1/23
+dhcp_range: 10.20.1.1,10.20.1.254,6h
