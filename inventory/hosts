@@ -3,12 +3,14 @@ gw1 ansible_user=root
 r1grab1 ansible_user=root
 r1mix ansible_user=root
 r2mix ansible_user=root
+r2grab1 ansible_user=root
 
 [dhcp-server]
 gw1
 
 [opsis]
 r1grab1
+r2grab1
 
 [voctomix]
 r1mix
