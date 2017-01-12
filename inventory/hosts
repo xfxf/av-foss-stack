@@ -1,16 +1,16 @@
 [onsite]
 gw1
 
-# Plenary 
+# Plenary
 # Desktop, 1 bm card for camera and room audio.
-r1mix 
+r1mix
 # two podiums, one opsis on each.
-r1grab1 
-r1grab2 
-# 2nd camera, video only, via opsis over network to core. 
-r1grab3 
+r1grab1
+r1grab2
+# 2nd camera, video only, via opsis over network to core.
+r1grab3
 
-# Standard rooms: 
+# Standard rooms:
 # i7 laptop for camera into Opsis, usb audio from PA
 r2mix video_disk=/dev/sdb
 r3mix video_disk=/dev/sdb
@@ -19,15 +19,15 @@ r5mix video_disk=/dev/sdb
 r6mix video_disk=/dev/sdb
 
 # old laptop for Opsis at podium
-r2grab1 
-r3grab1 
-r4grab1 
-r5grab1 
-r6grab1 
+r2grab1
+r3grab1
+r4grab1
+r5grab1
+r6grab1
 
 # spares room
-rxmix 
-rxgrab1 
+rxmix
+rxgrab1
 
 [dhcp-server]
 gw1
