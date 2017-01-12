@@ -3,6 +3,7 @@ gw1 ansible_user=root
 r1grab1 ansible_user=root
 r1mix ansible_user=root
 r2mix ansible_user=root video_disk=/dev/sdb
+r3mix ansible_user=root video_disk=/dev/sdb
 r2grab1 ansible_user=root
 
 [dhcp-server]
@@ -15,3 +16,4 @@ r2grab1
 [voctomix]
 r1mix
 r2mix
+r3mix
