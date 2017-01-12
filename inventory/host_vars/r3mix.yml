@@ -1,0 +1,7 @@
+---
+room_name: tasman_bc
+
+irc_room_channel: "#lca2017_tasman_bc"
+irc_nick: videoteam_tasman_bc
+
+alsa_device: hw:1,0
