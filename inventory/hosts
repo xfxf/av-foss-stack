@@ -1,19 +1,57 @@
 [onsite]
-gw1 ansible_user=root
-r1grab1 ansible_user=root
-r1mix ansible_user=root
-r2mix ansible_user=root video_disk=/dev/sdb
-r3mix ansible_user=root video_disk=/dev/sdb
-r2grab1 ansible_user=root
+gw1
+
+# Plenary 
+# Desktop, 1 bm card for camera and room audio.
+r1mix 
+# two podiums, one opsis on each.
+r1grab1 
+r1grab2 
+# 2nd camera, video only, via opsis over network to core. 
+r1grab3 
+
+# Standard rooms: 
+# i7 laptop for camera into Opsis, usb audio from PA
+r2mix video_disk=/dev/sdb
+r3mix video_disk=/dev/sdb
+r4mix video_disk=/dev/sdb
+r5mix video_disk=/dev/sdb
+r6mix video_disk=/dev/sdb
+
+# old laptop for Opsis at podium
+r2grab1 
+r3grab1 
+r4grab1 
+r5grab1 
+r6grab1 
+
+# spares room
+rxmix 
+rxgrab1 
 
 [dhcp-server]
 gw1
 
-[opsis]
-r1grab1
-r2grab1
-
 [voctomix]
 r1mix
+
 r2mix
 r3mix
+r4mix
+r5mix
+r6mix
+
+rxmix
+
+[opsis]
+r1grab1
+r1grab2
+r1grab3
+
+r2grab1
+r3grab1
+r4grab1
+r5grab1
+r6grab1
+
+rxgrab1
