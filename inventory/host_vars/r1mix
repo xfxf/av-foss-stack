@@ -7,3 +7,9 @@ blackmagic:
 blackmagic_sources:
 - card: 0
   connection: hdmi-audio
+
+sources:
+- Cam1
+- Cam2
+- Grabber1
+- Grabber2
