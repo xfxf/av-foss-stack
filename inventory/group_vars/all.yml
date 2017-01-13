@@ -30,7 +30,12 @@ public_keys_root:
 - https://github.com/CarlFK.keys
 
 streaming: nil
-serial_terminal: flterm
+
+# All the things :-/
+serial_terminal:
+- hdmi2usbd
+- flterm
+- cu
 
 sources:
 - Camera
