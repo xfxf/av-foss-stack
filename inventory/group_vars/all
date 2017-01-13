@@ -19,7 +19,6 @@ irc:
   server: irc.freenode.net
   ssl_port: 6697
   global_channels:
-  - "#linux.conf.au"
   - "#lca-av"
 
 public_keys_onsite:
