@@ -15,6 +15,8 @@ unset http_proxy
 git clone https://anonscm.debian.org/git/debconf-video/ansible.git /root/debconf-ansible
 git clone https://github.com/xfxf/lca2017-av.git /root/lca2017-av
 
+ln -s /root/lca2017-av/inventory/ansible-up.sh /usr/local/sbin/ansible-up
+
 # Aaaand we run ansible
 eatmydata ansible-playbook --inventory-file=/root/lca2017-av/inventory/hosts \
 	--connection=local \
