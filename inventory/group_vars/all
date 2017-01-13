@@ -31,6 +31,7 @@ public_keys_root:
 - https://github.com/CarlFK.keys
 
 streaming: nil
+serial_terminal: flterm
 
 sources:
 - Camera
