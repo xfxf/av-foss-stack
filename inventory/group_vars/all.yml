@@ -41,6 +41,8 @@ sources:
 - Camera
 - Grabber
 
+nfs_server: gw1
+
 static_ips:
 - hostname: gw1
   ip: 10.20.0.1

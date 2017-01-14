@@ -32,6 +32,9 @@ rXgrab1
 [dhcp-server]
 gw1
 
+[nfs-server]
+gw1
+
 [voctomix]
 r1mix
 
