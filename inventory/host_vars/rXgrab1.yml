@@ -1,0 +1,6 @@
+---
+voctomix:
+  host: rXmix
+  port: 10001
+
+video_delay: 800

@@ -73,6 +73,7 @@ static_ips:
   ip: 10.20.0.11
 - hostname: r1grab2
   ip: 10.20.0.12
+  mac: f0:de:f1:49:04:ce
 - hostname: r1grab3
   ip: 10.20.0.13
   mac: f0:de:f1:49:04:62
@@ -95,16 +96,24 @@ static_ips:
   mac: 3c:97:0e:9d:af:50
 - hostname: r4grab1
   ip: 10.20.0.41
+  mac: f0:de:f1:49:04:e5
 - hostname: r5mix
   ip: 10.20.0.50
   mac: 3c:97:0e:7f:d9:4c
 - hostname: r5grab1
   ip: 10.20.0.51
+  mac: 00:1e:37:84:1d:09
 - hostname: r6mix
   ip: 10.20.0.60
   mac: 3c:97:0e:23:8c:4c
 - hostname: r6grab1
   ip: 10.20.0.61
+  mac: 00:1e:37:90:18:12
+- hostname: rXmix
+  ip: 10.20.0.70
+- hostname: rXgrab1
+  ip: 10.20.0.71
+  mac: f0:de:f1:49:72:60
 - hostname: switch0
   ip: 10.20.0.200
   mac: 20:0c:c8:41:a3:e1
