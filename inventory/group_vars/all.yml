@@ -5,6 +5,9 @@ user_name: videoteam
 user_password: useme
 pw_salt: Eyjidoi
 
+org: lca
+show: lca2017
+
 domain: lca2017.lan
 
 time_zone: Australia/Hobart
