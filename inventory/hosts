@@ -28,6 +28,7 @@ r6grab1
 # spares room
 rXmix
 rXgrab1
+rXgrab2
 
 [dhcp-server]
 gw1
@@ -65,6 +66,7 @@ r6grab1
 
 rXmix
 rXgrab1
+rXgrab2
 
 [veyepar-encoder]
 r1mix
