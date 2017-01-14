@@ -40,3 +40,59 @@ serial_terminal:
 sources:
 - Camera
 - Grabber
+
+static_ips:
+- hostname: gw1
+  ip: 10.20.0.1
+  mac: a0:f3:c1:10:7f:7a
+- hostname: r1mix
+  ip: 10.20.0.10
+  mac: 14:da:e9:33:b2:4c
+- hostname: r1grab1
+  ip: 10.20.0.11
+  mac: f0:de:f1:49:04:62
+- hostname: r1grab2
+  ip: 10.20.0.12
+- hostname: r1grab3
+  ip: 10.20.0.13
+- hostname: r1grab4
+  ip: 10.20.0.14
+- hostname: r2mix
+  ip: 10.20.0.20
+  mac: 3c:97:0e:7f:d8:c0
+- hostname: r2grab1
+  ip: 10.20.0.21
+  mac: f0:de:f1:49:04:a8
+- hostname: r3mix
+  ip: 10.20.0.30
+  mac: 3c:97:0e:9d:af:4f
+- hostname: r3grab1
+  ip: 10.20.0.31
+  mac: f0:de:f1:49:72:35
+- hostname: r4mix
+  ip: 10.20.0.40
+  mac: 3c:97:0e:9d:af:50
+- hostname: r4grab1
+  ip: 10.20.0.41
+- hostname: r5mix
+  ip: 10.20.0.50
+  mac: 3c:97:0e:7f:d9:4c
+- hostname: r5grab1
+  ip: 10.20.0.51
+- hostname: r6mix
+  ip: 10.20.0.60
+  mac: 3c:97:0e:23:8c:4c
+- hostname: r6grab1
+  ip: 10.20.0.61
+- hostname: switch0
+  ip: 10.20.0.200
+  mac: 20:0c:c8:41:a3:e1
+- hostname: switch1
+  ip: 10.20.0.201
+  mac: 20:0c:c8:41:a4:17
+- hostname: switch2
+  ip: 10.20.0.202
+  mac: 20:0c:c8:41:a5:04
+- hostname: switch3
+  ip: 10.20.0.203
+  mac: 20:0c:c8:41:a5:07
