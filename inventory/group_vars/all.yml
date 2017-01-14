@@ -71,11 +71,11 @@ static_ips:
   mac: 14:da:e9:33:b2:4c
 - hostname: r1grab1
   ip: 10.20.0.11
-  mac: f0:de:f1:49:04:62
 - hostname: r1grab2
   ip: 10.20.0.12
 - hostname: r1grab3
   ip: 10.20.0.13
+  mac: f0:de:f1:49:04:62
 - hostname: r1grab4
   ip: 10.20.0.14
 - hostname: r2mix
