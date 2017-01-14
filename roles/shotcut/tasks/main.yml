@@ -1,0 +1,37 @@
+---
+- name: Make dirs to put Shotcut in
+  file:
+    path: "/home/{{ user_name }}/{{ item }}"
+    state: directory
+    recurse: true
+    owner:  "{{ user_name }}"
+    group:  "{{ user_name }}"
+  with_items:
+    - local
+    - bin
+
+- name: Download Shotcut video editor (includes melt)
+  get_url:
+    # stored on local server for performance
+    # url: "https://github.com/mltframework/shotcut/releases/download/v17.01/shotcut-linux-x86_64-170102.tar.bz2"
+    url: "http://gw1/shotcut-linux-x86_64-170102.tar.bz2"
+    dest: "/tmp"
+
+- name: unpack Shotcut video editor (includes melt)
+  unarchive:
+    src: "/tmp/shotcut-linux-x86_64-170102.tar.bz2"
+    dest: "/home/{{ user_name }}/local"
+    copy: no
+    owner:  "{{ user_name }}"
+    group:  "{{ user_name }}"
+
+- name: link in ~/bin to melt
+  file:
+    state: link
+    src: "/home/{{ user_name }}/local/Shotcut/Shotcut.app/{{ item }}"
+    dest: "/home/{{ user_name }}/bin/{{ item }}"
+    owner:  "{{ user_name }}"
+    group:  "{{ user_name }}"
+  with_items:
+    - melt
+    - shotcut
