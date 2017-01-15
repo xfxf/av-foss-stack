@@ -1,6 +1,6 @@
 ---
 voctomix:
-  host: r1mix
+  host: 10.20.2.10
   port: 10001
 
 video_delay: 800
