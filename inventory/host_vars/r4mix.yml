@@ -2,6 +2,6 @@
 room_name: boardwalk
 
 irc_room_channel: "#lca2017_boardwalk"
-irc_nick: videoteam_boardwalk
+irc_nick: av_boardwalk
 
 alsa_device: hw:1,0

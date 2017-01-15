@@ -2,7 +2,7 @@
 room_name: plenary
 
 irc_room_channel: "#lca2017_plenary"
-irc_nick: videoteam_plenary
+irc_nick: av_plenary
 
 blackmagic:
   desktopvideo: http://10.20.0.1/Blackmagic_Desktop_Video_Linux_10.8.4/deb/amd64/desktopvideo_10.8.4a4_amd64.deb

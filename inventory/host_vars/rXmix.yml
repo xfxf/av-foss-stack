@@ -2,7 +2,7 @@
 room_name: spare
 
 irc_room_channel: "#lca2017_spare"
-irc_nick: videoteam_spare
+irc_nick: av_spare
 
 alsa_device: hw:1,0
 
