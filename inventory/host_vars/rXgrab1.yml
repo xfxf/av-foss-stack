@@ -1,4 +1,7 @@
 ---
+irc_room_channel: "#lca2017_spare"
+irc_nick: av_spare_g1
+
 voctomix:
   host: rXmix
   port: 10001

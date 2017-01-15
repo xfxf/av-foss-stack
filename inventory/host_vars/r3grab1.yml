@@ -1,4 +1,7 @@
 ---
+irc_room_channel: "#lca2017_tasman_bc"
+irc_nick: av_tasman_bc_g1
+
 voctomix:
   host: r3mix
   port: 10001

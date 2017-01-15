@@ -1,4 +1,7 @@
 ---
+irc_room_channel: "#lca2017_plenary"
+irc_nick: av_plenary_g2
+
 voctomix:
   host: r1mix
   port: 10002

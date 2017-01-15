@@ -1,4 +1,7 @@
 ---
+irc_room_channel: "#lca2017_wellington_2"
+irc_nick: av_well_2_g1
+
 voctomix:
   host: r6mix
   port: 10001
