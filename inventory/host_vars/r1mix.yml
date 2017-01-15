@@ -12,7 +12,7 @@ blackmagic:
 
 blackmagic_sources:
 - card: 0
-  connection: hdmi-audio
+  connection: sdi-audio
 
 sources:
 - Cam1
