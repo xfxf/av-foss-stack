@@ -1,7 +1,11 @@
 ---
 - name: Install shotcut dependencies
   apt:
-    name: libxslt1.1
+    name: "{{ item }}"
+  with_items:
+  - libxcb-shape0
+  - libxcb-xfixes0
+  - libxslt1.1
 
 - name: Download Shotcut video editor (includes melt)
   get_url:
