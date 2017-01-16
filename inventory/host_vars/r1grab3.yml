@@ -6,4 +6,4 @@ voctomix:
   host: 10.20.2.10
   port: 10003
 
-video_delay: 800
+video_delay: 1000
