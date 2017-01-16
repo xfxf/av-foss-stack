@@ -1,0 +1,21 @@
+---
+- name: Create font dir
+  file:
+    state: directory
+    path: /home/{{ user_name }}/.fonts
+    owner: "{{ user_name }}"
+    group: "{{ user_name }}"
+
+- name: Install fonts for inkscape title slides
+  get_url:
+    # stored on local server for performance
+    url: http://gw1/titillium_web.zip
+    dest: /tmp
+
+- name: unpack the fonts
+  unarchive:
+    src: /tmp/titillium_web.zip
+    dest: /home/{{ user_name }}/.fonts
+    owner: "{{ user_name }}"
+    group: "{{ user_name }}"
+    copy: no

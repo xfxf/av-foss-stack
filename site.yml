@@ -1,3 +1,5 @@
-- hosts: shotcut
+---
+- hosts: veyepar-encoder
   roles:
   - shotcut
+  - fonts
