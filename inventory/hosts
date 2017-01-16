@@ -29,6 +29,7 @@ r6grab1
 rXmix
 rXgrab1
 rXgrab2
+rXgrab3
 
 [dhcp-server]
 gw1
@@ -67,6 +68,7 @@ r6grab1
 rXmix
 rXgrab1
 rXgrab2
+rXgrab3
 
 [veyepar-encoder]
 r1mix
