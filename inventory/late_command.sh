@@ -21,5 +21,5 @@ ln -s /root/lca2017-av/inventory/ansible-up.sh /usr/local/sbin/ansible-up
 eatmydata ansible-playbook --inventory-file=/root/lca2017-av/inventory/hosts \
 	--connection=local \
 	--limit=$(hostname) \
-	/root/lca2017-av/site.yml \
-	/root/debconf-ansible/site.yml
+	/root/debconf-ansible/site.yml \
+	/root/lca2017-av/site.yml
