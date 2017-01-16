@@ -31,6 +31,9 @@ rXgrab1
 rXgrab2
 rXgrab3
 
+# Dodgy PC that could be a spare r1mix
+enc1
+
 [dhcp-server]
 gw1
 
@@ -78,3 +81,4 @@ r4mix
 r5mix
 r6mix
 rXmix
+enc1
