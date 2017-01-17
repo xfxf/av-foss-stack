@@ -4,9 +4,4 @@ room_name: spare
 irc_room_channel: "#lca2017_spare"
 irc_nick: av_spare
 
-alsa_device: hw:1,0
-
-sources:
-- Cam1
-- Grabber1
-- Grabber2
+alsa_device: hw:2,0
