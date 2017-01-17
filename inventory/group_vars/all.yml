@@ -115,16 +115,19 @@ static_ips:
   mac: 14:da:e9:ce:62:b4
 - hostname: rXgrab1
   ip: 10.20.0.71
-  mac: f0:de:f1:49:72:60
-- hostname: rXgrab2
-  ip: 10.20.0.72
-  mac: f0:de:f1:49:04:e2
-- hostname: rXgrab3
-  ip: 10.20.0.73
   mac: 00:1e:37:90:15:7f
 - hostname: enc1
   ip: 10.20.0.100
   mac: 94:de:80:77:68:33
+- hostname: enc2
+  ip: 10.20.0.101
+  mac: f0:de:f1:49:72:60
+- hostname: enc3
+  ip: 10.20.0.102
+  mac: f0:de:f1:49:04:e2
+- hostname: enc4
+  ip: 10.20.0.103
+  mac: f0:de:f1:49:05:1b
 - hostname: switch0
   ip: 10.20.0.200
   mac: 20:0c:c8:41:a3:e1
