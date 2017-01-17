@@ -50,7 +50,7 @@ public_keys_root:
 
 streaming: youtube
 # About right for the W520s
-youtube_threads: 3
+youtube_threads: vaapi
 
 # All the things :-/
 serial_terminal:

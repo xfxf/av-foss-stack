@@ -4,4 +4,7 @@ room_name: spare
 irc_room_channel: "#lca2017_spare"
 irc_nick: av_spare
 
-alsa_device: hw:2,0
+alsa_device: hw:1,0
+
+# No Intel graphics
+youtube_threads: 3
