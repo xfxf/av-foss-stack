@@ -128,6 +128,9 @@ static_ips:
 - hostname: enc4
   ip: 10.20.0.103
   mac: f0:de:f1:49:05:1b
+- hostname: enc5
+  ip: 10.20.0.104
+  mac: 00:1e:37:90:53:dc
 - hostname: switch0
   ip: 10.20.0.200
   mac: 20:0c:c8:41:a3:e1
