@@ -3,3 +3,7 @@
   roles:
   - shotcut
   - fonts
+
+- hosts: onsite
+  roles:
+  - monitoring

@@ -1,0 +1,11 @@
+[Unit]
+Description=Node exporter for stats to Prometheus
+StartLimitInterval=0
+
+[Service]
+ExecStart=/usr/local/bin/node_exporter -collectors.enabled "conntrack,diskstats,entropy,filefd,filesystem,hwmon,loadavf,mdadm,meminfo,netdev,netstat,sockstat,stat,textfile,time,uname,vmstat,systemd"
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target
