@@ -1,0 +1,9 @@
+---
+- name: systemctl daemon-reload
+  command: systemctl daemon-reload
+
+- name: systemctl enable videoteam-node_exporter
+  command: systemctl enable videoteam-node_exporter
+
+- name: systemctl start videoteam-node_exporter
+  command: systemctl start videoteam-node_exporter
