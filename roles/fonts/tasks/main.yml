@@ -19,3 +19,4 @@
     owner: "{{ user_name }}"
     group: "{{ user_name }}"
     copy: no
+    creates: /home/{{ user_name }}/.fonts/TitilliumWeb-Regular.ttf
