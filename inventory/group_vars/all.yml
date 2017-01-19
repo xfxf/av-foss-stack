@@ -64,6 +64,16 @@ sources:
 
 nfs_server: gw1
 
+rsync_excludes:
+- 0[0-7]*.ts
+- 0[0-7]*.ts.mp4
+- 0[0-7]*.ts.wav.png
+- 2*.ts
+- 2*.ts.mp4
+- 2*.ts.wav.png
+- 2017-01-14
+- 2017-01-15
+
 static_ips:
 - hostname: gw1
   ip: 10.20.0.1
