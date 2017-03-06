@@ -36,9 +36,14 @@ enc1
 
 [dhcp-server]
 gw1
+cnt1
+dc10b
+negk
+k2
 
 [nfs-server]
 gw1
+cnt1
 
 [voctomix]
 r1mix
@@ -82,3 +87,8 @@ r5mix
 r6mix
 rXmix
 enc1
+
+[veyepar-encoder-nfs-storage]
+cnt5
+
+[veyepar-basic]
