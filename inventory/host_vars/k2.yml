@@ -1,0 +1,8 @@
+---
+eth_uplink_mac_address: d8:d3:85:31:94:06  # wired
+eth_local_mac_address: 80:3f:5d:08:c3:9d # usb
+eth_local_ip_address: 10.20.1.3
+eth_local_ip_netmask: 24
+dhcp_range: 10.20.1.10,10.20.1.254,6h
+# eth_local_ip_address: 192.168.1.3/24
+# dhcp_range: 192.168.1.11,192.168.1.250,6h
