@@ -1,21 +1,24 @@
 ---
-ansible_user: root
-
-user_name: videoteam
+user_name: juser
 user_password: useme
 pw_salt: Eyjidoi
 
-org: lca
-show: lca2017
+org: chicagolug
+show: feb_2017
+room: ps1
 
 domain: lca2017.lan
 
-time_zone: Australia/Hobart
-mirror: au.archive.ubuntu.com
-apt_proxy: http://10.20.0.1:8000/
+time_zone: US/Central
+# mirror: us.archive.ubuntu.com
+mirror: deb.debian.org
+apt_proxy: false
 
-netboot_image: http://archive.ubuntu.com/ubuntu/dists/xenial/main/installer-amd64/current/images/netboot/netboot.tar.gz
-late_command_url: https://github.com/xfxf/lca2017-av/raw/master/inventory/late_command.sh
+# netboot_image: http://archive.ubuntu.com/ubuntu/dists/xenial/main/installer-amd64/current/images/netboot/netboot.tar.gz
+netboot_image: http://ftp.debian.org/debian/dists/jessie/main/installer-amd64/current/images/netboot/netboot.tar.gz
+
+
+veyepar_confs: /home/carl/src/veyepar
 
 irc:
   network: freenode
@@ -60,7 +63,7 @@ sources:
 - Camera
 - Grabber
 
-nfs_server: gw1
+nfs_server: cnt1
 
 static_ips:
 - hostname: gw1
@@ -135,3 +138,7 @@ static_ips:
 - hostname: switch3
   ip: 10.20.0.203
   mac: 20:0c:c8:41:a5:07
+# - hostname: dc10b
+#  mac: b4:99:ba:e9:5c:5c
+#- hostname: k2
+#  mac: d8:d3:85:31:94:06
