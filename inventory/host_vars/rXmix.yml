@@ -6,7 +6,5 @@ irc_nick: av_spare
 
 alsa_device: hw:1,0
 
-sources:
-- Cam1
-- Grabber1
-- Grabber2
+# No Intel graphics
+youtube_threads: 3

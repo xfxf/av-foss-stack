@@ -28,11 +28,14 @@ r6grab1
 # spares room
 rXmix
 rXgrab1
-rXgrab2
-rXgrab3
 
 # Dodgy PC that could be a spare r1mix
 enc1
+enc2
+enc3
+enc4
+enc5
+enc6
 
 [dhcp-server]
 gw1
@@ -75,8 +78,6 @@ r6grab1
 
 rXmix
 rXgrab1
-rXgrab2
-rXgrab3
 
 [veyepar-encoder]
 r1mix
@@ -92,3 +93,8 @@ enc1
 cnt5
 
 [veyepar-basic]
+enc2
+enc3
+enc4
+enc5
+enc6

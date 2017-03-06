@@ -1,0 +1,30 @@
+---
+- name: Download node_exporter
+  get_url:
+    # stored on local server for performance
+    # url: "https://github.com/prometheus/node_exporter/releases/download/v0.13.0/node_exporter-0.13.0.linux-amd64.tar.gz"
+    url: http://gw1/node_exporter-0.13.0.linux-amd64.tar.gz
+    dest: /tmp
+
+- name: Unpack node_exporter
+  unarchive:
+    src: /tmp/node_exporter-0.13.0.linux-amd64.tar.gz
+    dest: /tmp/
+    copy: no
+    creates: /tmp/node_exporter-0.13.0.linux-amd64
+
+- name: Put node_exporter into place
+  copy:
+    src: /tmp/node_exporter-0.13.0.linux-amd64/node_exporter
+    dest: /usr/local/bin/node_exporter
+    remote_src: true
+    mode: 0755
+
+- name: Push systemd videoteam-node_exporter.service
+  copy:
+    src: files/videoteam-node_exporter.service
+    dest: /etc/systemd/system/videoteam-node_exporter.service
+  notify:
+  - systemctl daemon-reload
+  - systemctl enable videoteam-node_exporter
+  - systemctl start videoteam-node_exporter

@@ -5,4 +5,4 @@ irc_room_channel: "#lca2017_tasman_bc"
 irc_nick: av_tasman_bc
 
 alsa_device: hw:1,0
-audio_delay: 800
+audio_delay: 1000

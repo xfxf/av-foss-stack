@@ -51,7 +51,9 @@ public_keys_root:
 - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAzlPfm44SdJSxswGyoeqcxGOFy0qRZmTMwG7isFeHZOkWOcbvC8hk+Bbf/A9pS8VfmYTx0kYgcaUxEDEcAN9oQTVOxQZot6Gurq6lOx6x/yvENp+KK7dS2iEZt0UEDLdEHI1Rv9Tqk5PxOl/z+WQy4h0a0RlxYWVUpk+70PD76erPg2s8OYODP97I3xYKQKY/vdT7IAmvusZCFyavxtP6vBZRKOVSP+YVdbTgIzsz3WzWRFHEv8UuZ/lb6NjLP6SfrykADYrtq75c/hWrMxXBlqgn9ajo767YPYO1NhIRgGMySVkusacMIetEIUb6EIsdOswBe3mr+aKdbVFD4zjl5w== mithro.2
 - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDq2iw8EFJnLt4GB/cWXdTpPKAf3YpjCbfBJFk51Wcc3JSm4O640L1+13WHM6ASwOL890SNJSe7J7VLJWJky5tn5Axg8nsyuOB48Vere7l+Zv+ivfo0BVdiyY0IKL06wLxnD6xuiA3pDHLZ982zgluhXd4nqSaSm/MPikydKGcwkRzkgDmVYSyd+BWy91X4GBLs+GWiHxDsad3B1zd+4+Nc3WbVI4aYNRvO/fXqZ1GtXoiMuoAzKtmF0UasA63CJM3eQJiiMl1P3Gd9FNyMiKF+BtB3wkSY+KmSmvGZvFBVmLjLhIoyDRsx3VsSuhy+foV8Bfml9YjwROdWMXtAJ5u5ngKTRXExnFvljIin+4EsHgOq+BzUb0K+PYfEkAMnE3z7bepxav46tOOiisD48PI19ZbmZiWB7ELydOCoFdxmc9UZEb6zFX9kr5yJz5QIR2kCAAePiiTamMSxBs2QDNZOIReGLoA0zWtCXfB6daMe5jL94qIgqb9jHYup9AvkSUKhUz8w/HbR7H64XeKh7pUSKW5piNGrgqNEG+O3AXXfOT86ZEr3v1ODUNHN5C3p9XfGOhGFHip6QUKq5UkKNf2PovOY3s2CSGSdsSBXIQIiACWGorKluArkYew+5wE4YKUwZbvIOsvSHyH2SI9ulBzlpdYtME+bX2xXcng3eDxxEw== mithro.3
 
-streaming: nil
+streaming: youtube
+# About right for the W520s
+youtube_threads: vaapi
 
 # All the things :-/
 serial_terminal:
@@ -64,6 +66,16 @@ sources:
 - Grabber
 
 nfs_server: cnt1
+
+rsync_excludes:
+- 0[0-7]*.ts
+- 0[0-7]*.ts.mp4
+- 0[0-7]*.ts.wav.png
+- 2*.ts
+- 2*.ts.mp4
+- 2*.ts.wav.png
+- 2017-01-14
+- 2017-01-15
 
 static_ips:
 - hostname: gw1
@@ -116,16 +128,25 @@ static_ips:
   mac: 14:da:e9:ce:62:b4
 - hostname: rXgrab1
   ip: 10.20.0.71
-  mac: f0:de:f1:49:72:60
-- hostname: rXgrab2
-  ip: 10.20.0.72
-  mac: f0:de:f1:49:04:e2
-- hostname: rXgrab3
-  ip: 10.20.0.73
   mac: 00:1e:37:90:15:7f
 - hostname: enc1
   ip: 10.20.0.100
   mac: 94:de:80:77:68:33
+- hostname: enc2
+  ip: 10.20.0.101
+  mac: f0:de:f1:49:72:60
+- hostname: enc3
+  ip: 10.20.0.102
+  mac: f0:de:f1:49:04:e2
+- hostname: enc4
+  ip: 10.20.0.103
+  mac: f0:de:f1:49:05:1b
+- hostname: enc5
+  ip: 10.20.0.104
+  mac: 00:1e:37:90:53:dc
+- hostname: enc6
+  ip: 10.20.0.105
+  mac: 0c:c4:7a:a3:25:8a
 - hostname: switch0
   ip: 10.20.0.200
   mac: 20:0c:c8:41:a3:e1

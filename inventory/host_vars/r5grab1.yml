@@ -6,4 +6,4 @@ voctomix:
   host: r5mix
   port: 10001
 
-video_delay: 800
+video_delay: 1000
