@@ -7,16 +7,17 @@ org: chicagolug
 show: feb_2017
 room: ps1
 
-domain: lca2017.lan
+domain: private.lan
+
+distro: ubuntu
 
 time_zone: US/Central
-# mirror: us.archive.ubuntu.com
-mirror: deb.debian.org
+mirror: us.archive.ubuntu.com
+# mirror: deb.debian.org
 apt_proxy: false
 
-# netboot_image: http://archive.ubuntu.com/ubuntu/dists/xenial/main/installer-amd64/current/images/netboot/netboot.tar.gz
-netboot_image: http://ftp.debian.org/debian/dists/jessie/main/installer-amd64/current/images/netboot/netboot.tar.gz
-
+netboot_image: http://archive.ubuntu.com/ubuntu/dists/xenial/main/installer-amd64/current/images/netboot/netboot.tar.gz
+# netboot_image: http://ftp.debian.org/debian/dists/jessie/main/installer-amd64/current/images/netboot/netboot.tar.gz
 
 veyepar_confs: /home/carl/src/veyepar
 
