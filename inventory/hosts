@@ -1,5 +1,6 @@
 [onsite]
 gw1
+dc10b
 
 # Plenary
 # Desktop, 1 bm card for main camera and room audio.
@@ -38,9 +39,9 @@ enc5
 enc6
 
 [dhcp-server]
+dc10b
 gw1
 cnt1
-dc10b
 negk
 trist
 
@@ -58,6 +59,7 @@ r5mix
 r6mix
 
 rXmix
+dc10b
 
 [opsis]
 r1grab1
