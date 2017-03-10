@@ -1,6 +1,7 @@
 [onsite]
 gw1
 dc10b
+trist
 gator
 
 # Plenary
@@ -44,7 +45,6 @@ dc10b
 gw1
 cnt1
 negk
-trist
 
 [nfs-server]
 gw1
@@ -52,6 +52,7 @@ cnt1
 
 [voctomix]
 gator
+trist
 r1mix
 
 r2mix
@@ -98,9 +99,10 @@ enc1
 cnt5
 
 [veyepar-basic]
+trist
+# gator
 enc2
 enc3
 enc4
 enc5
 enc6
-# gator
