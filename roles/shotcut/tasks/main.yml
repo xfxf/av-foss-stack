@@ -11,7 +11,7 @@
   get_url:
     # stored on local server for performance
     # url: "https://github.com/mltframework/shotcut/releases/download/v17.01/shotcut-linux-x86_64-170102.tar.bz2"
-    url: http://gw1/shotcut-linux-x86_64-170102.tar.bz2
+      url: https://github.com/mltframework/shotcut/releases/download/v17.03/shotcut-linux-x86_64-170302.tar.bz2
     dest: /tmp
 
 - name: unpack Shotcut video editor (includes melt)

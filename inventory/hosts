@@ -1,4 +1,5 @@
 [onsite]
+c2
 gw1
 dc10b
 trist
@@ -65,6 +66,8 @@ rXmix
 dc10b
 
 [opsis]
+c2
+# ip=192.168.1.192
 # gator
 r1grab1
 r1grab2
