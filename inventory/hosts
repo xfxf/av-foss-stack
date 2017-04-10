@@ -1,7 +1,8 @@
 [onsite]
+cnt7
 c2
 gw1
-dc10b
+# dc10b
 trist
 gator
 
@@ -52,6 +53,7 @@ gw1
 cnt1
 
 [voctomix]
+cnt7
 gator
 trist
 r1mix
@@ -66,6 +68,8 @@ rXmix
 dc10b
 
 [opsis]
+cnt7
+trist
 c2
 # ip=192.168.1.192
 # gator
@@ -99,9 +103,9 @@ rXmix
 enc1
 
 [veyepar-encoder-nfs-storage]
-cnt5
 
 [veyepar-basic]
+cnt5
 trist
 # gator
 enc2

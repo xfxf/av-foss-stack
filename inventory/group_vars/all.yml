@@ -1,19 +1,21 @@
 ---
 user_name: juser
-user_password: useme
+user_password_hash: $6$khprmotoVWYLZY2W$Gj5Y6p4R.LsXQdL2xf6umhInzZ9GCG6USXB0XIl86m5.IbqSOPXJ0mxVUE7y5kGFE/arHgExAxoz0kEULiplZ.
 pw_salt: Eyjidoi
 
-org: chicagolug
-show: feb_2017
-room: ps1
+org: surj
+show: community_justice_and_healing
+room: room_1
+
+time_zone: US/Central
 
 domain: private.lan
 
-distro: ubuntu
+# distro: Ubuntu
+distro: Debian
 
-time_zone: US/Central
-mirror: us.archive.ubuntu.com
-# mirror: deb.debian.org
+# mirror: us.archive.ubuntu.com
+mirror: deb.debian.org
 apt_proxy: true
 
 netboot_image: http://archive.ubuntu.com/ubuntu/dists/xenial/main/installer-amd64/current/images/netboot/netboot.tar.gz
@@ -78,14 +80,17 @@ rsync_excludes:
 - 2017-01-14
 - 2017-01-15
 
-static_ips:
-- hostname: c2
-  # ip: 10.0.0.11
-  ip: 192.168.1.114
-  mac: 00:1e:06:33:5a:36
 # - include: macs-lca.yml
+
+# static_ips:
+#- hostname: c2
+#  # ip: 10.0.0.11
+#  ip: 192.168.1.114
+#  mac: 00:1e:06:33:5a:36
+#
 # - hostname: dc10b
 #   ip: 10.20.0.xxx
 #  mac: b4:99:ba:e9:5c:5c
+#
 #- hostname: k2
 #  mac: d8:d3:85:31:94:06
