@@ -5,6 +5,7 @@ gw1
 # dc10b
 trist
 gator
+negk
 
 # Plenary
 # Desktop, 1 bm card for main camera and room audio.
@@ -46,13 +47,14 @@ enc6
 dc10b
 gw1
 cnt1
-negk
+spat
 
 [nfs-server]
 gw1
 cnt1
 
 [voctomix]
+# negk
 cnt7
 gator
 trist
@@ -65,9 +67,10 @@ r5mix
 r6mix
 
 rXmix
-dc10b
+# dc10b
 
 [opsis]
+negk
 cnt7
 trist
 c2
@@ -101,6 +104,7 @@ r5mix
 r6mix
 rXmix
 enc1
+# negk
 
 [veyepar-encoder-nfs-storage]
 

@@ -1,11 +1,11 @@
 ---
 user_name: juser
 user_password_hash: $6$khprmotoVWYLZY2W$Gj5Y6p4R.LsXQdL2xf6umhInzZ9GCG6USXB0XIl86m5.IbqSOPXJ0mxVUE7y5kGFE/arHgExAxoz0kEULiplZ.
-pw_salt: Eyjidoi
+autologin: True
 
-org: surj
-show: community_justice_and_healing
-room: room_1
+org: ps1
+show: nerp_April_2017
+room: electronics_lab
 
 time_zone: US/Central
 
@@ -18,8 +18,9 @@ distro: Debian
 mirror: deb.debian.org
 apt_proxy: true
 
-netboot_image: http://archive.ubuntu.com/ubuntu/dists/xenial/main/installer-amd64/current/images/netboot/netboot.tar.gz
+# netboot_image: http://archive.ubuntu.com/ubuntu/dists/xenial/main/installer-amd64/current/images/netboot/netboot.tar.gz
 # netboot_image: http://ftp.debian.org/debian/dists/jessie/main/installer-amd64/current/images/netboot/netboot.tar.gz
+netboot_image: http://ftp.debian.org/debian/dists/stretch/main/installer-amd64/current/images/netboot/netboot.tar.gz
 
 veyepar_confs: /home/carl/src/veyepar
 
