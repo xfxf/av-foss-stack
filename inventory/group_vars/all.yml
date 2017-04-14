@@ -61,9 +61,10 @@ youtube_threads: vaapi
 
 # All the things :-/
 serial_terminal:
-- hdmi2usbd
-- flterm
+    # - hdmi2usbd
+    # - flterm
 - cu
+- minicom
 
 sources:
 - Camera
