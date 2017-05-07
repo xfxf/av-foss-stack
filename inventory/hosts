@@ -6,6 +6,7 @@ gw1
 trist
 gator
 negk
+debian
 
 # Plenary
 # Desktop, 1 bm card for main camera and room audio.
@@ -54,7 +55,7 @@ gw1
 cnt1
 
 [voctomix]
-# negk
+negk
 cnt7
 gator
 trist
@@ -75,7 +76,7 @@ cnt7
 trist
 c2
 # ip=192.168.1.192
-# gator
+gator
 r1grab1
 r1grab2
 r1grab3
