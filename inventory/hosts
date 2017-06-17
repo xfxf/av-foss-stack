@@ -4,7 +4,7 @@ c2
 gw1
 # dc10b
 trist
-gator
+# gator
 negk
 debian
 
@@ -55,9 +55,8 @@ gw1
 cnt1
 
 [voctomix]
-negk
 cnt7
-gator
+# gator
 trist
 r1mix
 
@@ -71,12 +70,11 @@ rXmix
 # dc10b
 
 [opsis]
-negk
 cnt7
 trist
 c2
 # ip=192.168.1.192
-gator
+# gator
 r1grab1
 r1grab2
 r1grab3
@@ -105,14 +103,13 @@ r5mix
 r6mix
 rXmix
 enc1
-# negk
 
 [veyepar-encoder-nfs-storage]
+gator
 
 [veyepar-basic]
 cnt5
 trist
-# gator
 enc2
 enc3
 enc4

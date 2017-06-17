@@ -23,6 +23,10 @@ apt_proxy: true
 
 # netboot_image: http://ftp.debian.org/debian/dists/jessie/main/installer-amd64/current/images/netboot/netboot.tar.gz
 netboot_image: http://ftp.debian.org/debian/dists/stretch/main/installer-amd64/current/images/netboot/netboot.tar.gz
+# http://ftp.debian.org/debian/dists/stretch/main/installer-amd64/current/images/netboot/debian-installer/amd64/
+# arch=amd64
+# suite=stretch
+# http://ftp.debian.org/debian/dists/{suite}/main/installer-{arch}/current/images/netboot/debian-installer/{arch}/
 
 veyepar_confs: /home/carl/src/veyepar
 
@@ -72,7 +76,7 @@ sources:
 - Camera
 - Grabber
 
-nfs_server: cnt1
+nfs_server: rad
 
 rsync_excludes:
 - 0[0-7]*.ts
