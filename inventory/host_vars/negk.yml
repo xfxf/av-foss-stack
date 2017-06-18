@@ -1,7 +1,10 @@
 ---
-# eth_uplink_mac_address: 80:3f:5d:08:c3:9d # usb
-eth_uplink_mac_address: 80:3f:5d:08:c3:89# usb
-eth_local_mac_address: 00:26:9e:03:9d:e5 # wired
+# uplink is onboard, what pxe boots.
+# uplink is the interface used by remote ansible
+# (local will be given a new IP, and that makes ansible mad.)
+eth_uplink_mac_address: 00:26:9e:03:9d:e5 # wired
+eth_local_mac_address: 80:3f:5d:08:c3:89# usb
+# 80:3f:5d:08:c3:9d # usb
 
 eth_local_ip_address: 10.20.1.4
 eth_local_ip_netmask: 24
