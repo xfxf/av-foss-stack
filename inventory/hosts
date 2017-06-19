@@ -45,7 +45,6 @@ enc5
 enc6
 
 [dhcp-server]
-negk
 dc10b
 gw1
 cnt1
