@@ -6,7 +6,10 @@ gw1
 trist
 # gator
 negk
-debian
+
+debian # for testing
+ubuntu # for testing
+qemu # for testing
 
 # Plenary
 # Desktop, 1 bm card for main camera and room audio.
