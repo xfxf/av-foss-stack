@@ -4,7 +4,7 @@ c2
 gw1
 # dc10b
 trist
-# gator
+gator
 negk
 
 debian # for testing
@@ -59,7 +59,7 @@ cnt1
 
 [voctomix]
 cnt7
-# gator
+gator
 trist
 r1mix
 
@@ -108,7 +108,7 @@ rXmix
 enc1
 
 [veyepar-encoder-nfs-storage]
-gator
+# gator
 
 [veyepar-basic]
 cnt5
