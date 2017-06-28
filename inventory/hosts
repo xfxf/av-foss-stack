@@ -1,10 +1,10 @@
 [onsite]
+gator
 cnt7
 c2
 gw1
 # dc10b
 trist
-gator
 negk
 
 debian # for testing
@@ -59,7 +59,7 @@ cnt1
 
 [voctomix]
 cnt7
-gator
+# gator
 trist
 r1mix
 
@@ -111,6 +111,7 @@ enc1
 # gator
 
 [veyepar-basic]
+gator
 cnt5
 trist
 enc2
