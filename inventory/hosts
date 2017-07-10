@@ -59,7 +59,7 @@ cnt1
 
 [voctomix]
 cnt7
-# gator
+gator
 trist
 r1mix
 
@@ -77,7 +77,7 @@ cnt7
 trist
 c2
 # ip=192.168.1.192
-# gator
+gator
 r1grab1
 r1grab2
 r1grab3
@@ -111,7 +111,7 @@ enc1
 # gator
 
 [veyepar-basic]
-gator
+# gator
 cnt5
 trist
 enc2
