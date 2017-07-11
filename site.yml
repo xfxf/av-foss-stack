@@ -6,4 +6,4 @@
 
 - hosts: onsite
   roles:
-  - monitoring
+# - monitoring
