@@ -48,6 +48,7 @@ enc5
 enc6
 
 [dhcp-server]
+# gator
 dc10b
 gw1
 cnt1

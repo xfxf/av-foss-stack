@@ -8,6 +8,12 @@ alsa_device: hw:1,0
 audio_delay: 1000
 
 
+eth_uplink_mac_address: 40:8d:5c:7f:bb:90 # wired
+eth_local_mac_address: 80:3f:5d:08:c3:89 # usb
+# eth_local_ip_address: 10.20.1.3
+# eth_local_ip_netmask: 24
+# dhcp_range: 10.20.1.10,10.20.1.254,6h
+
 blackmagic:
   desktopvideo: http://dc10b/bm/Blackmagic_Desktop_Video_Linux_10.9a7/deb/amd64/desktopvideo_10.9a7_amd64.deb
 #   desktopvideo_gui: http://dc10b/bm/Blackmagic_Desktop_Video_Linux_10.9a7/deb/amd64/desktopvideo-gui_10.9a7_amd64.deb
