@@ -35,6 +35,7 @@ staticips:
     ip: 10.42.0.61
   - hostname: r1vnc # Lenovo T510
     ip: 10.42.0.19
+    mac: f0:de:f1:4c:31:95
 
   write_hosts: false
   write_interfaces: false
