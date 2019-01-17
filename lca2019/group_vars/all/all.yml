@@ -39,7 +39,7 @@ playbook_branch: ansible-out
 
 # To replace the stock inventory with your own, point at your own github repo
 inventory_repo: https://github.com/xfxf/av-foss-stack.git
-inventory_dir: lca2019
+inventory_repo_dir: lca2019
 
 serial_terminal:
 - tio
