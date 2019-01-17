@@ -1,5 +1,6 @@
+
 ---
+static_ip: 10.42.0.61
 voctomix:
-  host: r6mix
+  host: 10.42.0.60
   port: 10001
-video_delay: 1000

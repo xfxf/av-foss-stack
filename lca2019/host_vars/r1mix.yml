@@ -1,33 +1,20 @@
+
 ---
-blackmagic:
-  desktopvideo: http://gw/bm/Blackmagic_Desktop_Video_Linux_10.9.10/deb/x86_64/desktopvideo_10.9.10a2_amd64.deb
-  desktopvideo_gui: http://gw/bm/Blackmagic_Desktop_Video_Linux_10.9.10/deb/x86_64/desktopvideo-gui_10.9.10a2_amd64.deb
-#  mediaexpress: http://gw/bm/Blackmagic_Desktop_Video_Linux_10.9.10/deb/x86_64/mediaexpress_3.5.4a5_amd64.deb
-  dkms_version: 10.9.10a2
+room_name: c1
 
-blackmagic_sources:
-- card: 0
-  connection: SDI
-  audio: true
-  mode: 17
-- card: 1
-  connection: HDMI
-  audio: false
-  mode: 17
+static_ip: 10.42.0.10
+
+irc_room_channel: "#lca2018-c1"
+irc_nick: lcaav_c1
+
+alsa_device: hw:1,0
+audio_delay: 0
+
+video_disk: /dev/sdb
+
 sources:
-- Cam
-- VenuCams
-- GrabberL
-- GrabberR
-
-voctomix:
-  display_system: xv
-  framerate: 25
-  loop_url: http://gw/lca2018.ts
-
-room_name: greathall
-irc_room_channel: "#lca2018-greathall"
-irc_nick: lcaav_greathall
+- Camera1
+- Grabber
 
 streaming:
   method: rtmp
@@ -39,10 +26,6 @@ streaming:
     vaapi: true
     location: !vault |
               $ANSIBLE_VAULT;1.1;AES256
-              32633264323235386437643966313239333432376666376462346565393639333830633164663932
-              6133383563323464376561393031656536336339363735390a346633326134303339656339303138
-              31613164323337323832663634633330376464636536306336663433393430623665623439373165
-              6162646331376636360a663337306435323030316166646465613839393464646262633139633232
-              63636531663465666334343565356532306661346639393863393336363032313565313537613939
-              30303866353666353335393138663533393039656637363837316438376638363065383435303661
-              633436303163306264616137636164353939
+              garblygook
+
+
