@@ -62,5 +62,9 @@ staticips:
     ip: 10.42.0.71
     mac: F0:DE:F1:49:04:e2
 
+  - hostname: test-station
+    ip: 10.42.0.142
+    mac: 00:1e:37:90:18:14
+
   write_hosts: false
   write_interfaces: false
