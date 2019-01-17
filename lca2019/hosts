@@ -1,4 +1,4 @@
-[dhcp-server]
+[tftp-dhcp-server]
 storage
 
 [nfs-server]
