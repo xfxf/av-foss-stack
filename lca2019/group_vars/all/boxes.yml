@@ -34,6 +34,9 @@ staticips:
   - hostname: r3grab # Lenovo T430s
     ip: 10.42.0.31
     mac: 3c:97:0e:4f:73:0e
+  - hostname: r3vnc # T510
+    ip: 10.42.0.39
+    mac: F0:DE:F1:4C:40:76
   - hostname: r4mix # Lenovo W530
     ip: 10.42.0.40
     mac: 3c:97:0e:9d:af:50
@@ -43,6 +46,9 @@ staticips:
   - hostname: r4vnc # Lenovo T430s
     ip: 10.42.0.49
     mac: 3C:97:0E:64:FB:81
+  - hostname: r5vnc # T430s
+    ip: 10.42.0.59
+    mac: 3C:97:0E:64:FC:D3
   - hostname: r5mix # Lenovo W530
     mac: 3c:97:0e:7f:d9:4c
     ip: 10.42.0.50
