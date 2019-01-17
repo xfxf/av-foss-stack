@@ -13,7 +13,7 @@ staticips:
   - hostname: r1grab2 # Lenovo T410
     ip: 10.42.0.12
     mac: f0:de:f1:49:04:62
-    hostname: r1grab3 #Lenovo T410
+  - hostname: r1grab3 #Lenovo T410
     ip: 10.42.0.13
     mac: f0:de:f1:49:72:60
   - hostname: r1vnc # Lenovo T510
@@ -43,6 +43,9 @@ staticips:
   - hostname: r4grab # Lenovo T420s
     ip: 10.42.0.41
     mac: 3C:97:0E:12:94:0B
+  - hostname: r4vnc # Lenovo T430s
+    ip: 10.42.0.49
+    mac: 3C:97:0E:64:FB:81
   - hostname: r5vnc # T430s
     ip: 10.42.0.59
     mac: 3C:97:0E:64:FC:D3
@@ -58,6 +61,9 @@ staticips:
   - hostname: r6grab # Lenovo T410
     ip: 10.42.0.61
     mac: 3C:97:0E:64:FC:D8
+  - hostname: r6vnc # Lenovo T410
+    ip: 10.42.0.69
+    mac: f0:de:f1:20:0f:0b
   - hostname: r7grab # Lenovo T410
     ip: 10.42.0.71
     mac: F0:DE:F1:49:04:e2
