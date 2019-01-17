@@ -35,12 +35,12 @@ storage
 [voctotests]
 
 [xorg]
-spare1
-spare2
-spare3
-spare4
-spare5
-spare6
+r1vnc
+r2vnc
+r3vnc
+r4vnc
+r5vnc
+r6vnc
 
 [onsite]
 
