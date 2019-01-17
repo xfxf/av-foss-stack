@@ -43,6 +43,7 @@ staticips:
     ip: 10.42.0.51
   - hostname: r6mix # Lenovo W530
     ip: 10.42.0.60
+    mac: 3c:97:0e:53:ce:07
   - hostname: r6grab # Lenovo T410
     ip: 10.42.0.61
 
