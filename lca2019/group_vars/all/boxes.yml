@@ -20,8 +20,8 @@ staticips:
   - hostname: r2grab # Lenovo T410
     mac: f0:de:f1:49:04:a8
     ip: 10.42.0.21
-  - hostname: r3mix # Lenovo TP W530
-    mac: 3c:97:0e:53:ce:07
+  - hostname: r3mix # Lenovo T510
+    mac: f0:de:f1:4c:30:34
     ip: 10.42.0.30
   - hostname: r3grab # Lenovo T410
     mac: f0:de:f1:3e:8d:ae
