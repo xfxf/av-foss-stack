@@ -31,6 +31,7 @@ staticips:
     mac: 3c:97:0e:4f:73:0e
   - hostname: r4mix # Lenovo W530
     ip: 10.42.0.40
+    mac: 3c:97:0e:9d:af:50
   - hostname: r4grab # Lenovo T430s
     ip: 10.42.0.41
     mac: 3c:97:0e:49:aa:d6
