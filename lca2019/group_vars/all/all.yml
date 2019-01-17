@@ -39,7 +39,6 @@ playbook_branch: master
 
 # To replace the stock inventory with your own, point at your own github repo
 inventory_repo: https://github.com/xfxf/av-foss-stack.git
-inventory_branch: master
 inventory_dir: lca2019
 
 serial_terminal:
@@ -57,6 +56,8 @@ voctomix:
   # Opsis
   host: localhost
   port: 10000
+
+veyepar_url: https://veyepar.nextdayvideo.com
 
 # Late night, early morning
 rsync_excludes:
