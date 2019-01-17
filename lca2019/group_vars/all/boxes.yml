@@ -43,6 +43,9 @@ staticips:
   - hostname: r4grab # Lenovo T420s
     ip: 10.42.0.41
     mac: 3C:97:0E:12:94:0B
+  - hostname: r5vnc # T430s
+    ip: 10.42.0.59
+    mac: 3C:97:0E:64:FC:D3
   - hostname: r5mix # Lenovo W530
     mac: 3c:97:0e:7f:d9:4c
     ip: 10.42.0.50
