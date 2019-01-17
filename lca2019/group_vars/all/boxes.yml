@@ -13,7 +13,7 @@ staticips:
   - hostname: r1grab2 # Lenovo T410
     ip: 10.42.0.12
     mac: f0:de:f1:49:04:62
-    hostname: r1grab3 #Lenovo T410
+  - hostname: r1grab3 #Lenovo T410
     ip: 10.42.0.13
     mac: f0:de:f1:49:72:60
   - hostname: r1vnc # Lenovo T510
