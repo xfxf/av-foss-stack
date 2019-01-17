@@ -15,17 +15,3 @@ video_disk: /dev/sdb
 sources:
 - Camera1
 - Grabber
-
-streaming:
-  method: rtmp
-  hq_config:
-    video_bitrate: 2000 # kbps
-    audio_bitrate: 128000 # bps
-    keyframe_period: 60 # seconds
-  rtmp:
-    vaapi: true
-    location: !vault |
-              $ANSIBLE_VAULT;1.1;AES256
-              garblygook
-
-
