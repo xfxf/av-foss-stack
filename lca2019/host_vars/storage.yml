@@ -1,0 +1,13 @@
+eth_local_mac_address: a0:f3:c1:10:7f:7a
+eth_local_address: 10.42.0.1
+eth_local_netmask: 24
+eth_local_gateway:
+
+eth_uplink_static: True
+eth_uplink_mac_address: 8c:dc:d4:42:39:61
+eth_uplink_static_address: 192.168.1.250/24
+eth_uplink_static_netmask: 24
+eth_uplink_static_gateway: 192.168.1.1
+eth_uplink_dns_server: 1.1.1.1
+
+apt_proxy: true
