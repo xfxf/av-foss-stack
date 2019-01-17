@@ -12,6 +12,7 @@ org: lca
 show: lca2019
 
 irc:
+  autostart: true
   network: freenode
   server: chat.freenode.net
   ssl_port: 6697
