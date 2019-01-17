@@ -46,6 +46,9 @@ staticips:
     mac: 3c:97:0e:53:ce:07
   - hostname: r6grab # Lenovo T410
     ip: 10.42.0.61
+  - hostname: r7grab # Lenovo T410
+    ip: 10.42.0.71
+    mac: F0:DE:F1:49:04:e2
 
   write_hosts: false
   write_interfaces: false
