@@ -36,7 +36,8 @@ storage
 
 [veyepar-encoder-nfs-storage]
 
-[voctotests]
+[test-station]
+test-station
 
 [xorg]
 r1vnc
@@ -49,9 +50,10 @@ r6vnc
 [onsite]
 
 [onsite:children]
-tftp-dhcp-server
 encoder
 nfs-server
 opsis
+test-station
+tftp-dhcp-server
 voctomix
 xorg
