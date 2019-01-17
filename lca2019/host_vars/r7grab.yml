@@ -1,5 +1,0 @@
----
-enable_sid: true
-voctomix:
-  host: r7mix
-  port: 10001
