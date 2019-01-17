@@ -28,6 +28,8 @@ r6grab
 [veyepar-basic]
 storage
 
+[encoder]
+
 [veyepar-encoder-nfs-storage]
 
 [voctotests]
