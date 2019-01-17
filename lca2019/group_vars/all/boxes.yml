@@ -7,56 +7,56 @@ staticips:
 
   - hostname: r1mix # Dell 9020 DESKTOP
     mac: 98:90:96:a7:d8:30
-    ip: 10.20.0.10
+    ip: 10.42.0.10
   - hostname: r1grab # Lenovo T410
     mac: f0:de:f1:49:04:e2
-    ip: 10.20.0.11
+    ip: 10.42.0.11
   - hostname: r1grab2 # Lenovo T410
     mac: f0:de:f1:49:04:ce
-    ip: 10.20.0.12
+    ip: 10.42.0.12
   - hostname: r2mix # Lenovo T510
     mac: f0:de:f1:4c:31:95
-    ip: 10.20.0.20
+    ip: 10.42.0.20
   - hostname: r2grab # Lenovo T410
     mac: f0:de:f1:49:04:a8
-    ip: 10.20.0.21
+    ip: 10.42.0.21
   - hostname: r3mix # Lenovo TP W530
     mac: 3c:97:0e:53:ce:07
-    ip: 10.20.0.30
+    ip: 10.42.0.30
   - hostname: r3grab # Lenovo T410
     mac: f0:de:f1:3e:8d:ae
-    ip: 10.20.0.31
+    ip: 10.42.0.31
   - hostname: r4mix # Lenovo TP W530
     mac: 3c:97:0e:9d:af:50
-    ip: 10.20.0.40
+    ip: 10.42.0.40
   - hostname: r4grab # Lenovo T410
     mac: f0:de:f1:49:04:62
-    ip: 10.20.0.41
+    ip: 10.42.0.41
   - hostname: r5mix # Lenovo TP W530
     mac: 3c:97:0e:7f:d9:4c
-    ip: 10.20.0.50
+    ip: 10.42.0.50
   - hostname: r5grab # Lenovo T410
     mac: f0:de:f1:49:72:35
-    ip: 10.20.0.51
+    ip: 10.42.0.51
   - hostname: r6mix # Lenovo TP W530
     mac: 3c:97:0e:23:8c:4c
-    ip: 10.20.0.60
+    ip: 10.42.0.60
   - hostname: r6grab # Lenovo T410
     mac: f0:de:f1:49:04:e5
-    ip: 10.20.0.61
+    ip: 10.42.0.61
 
   - hostname: r7mix # Lenovo TP W530 ##BROKEN##
     mac: 3c:97:0e:9d:af:4f
-    ip: 10.20.0.70
+    ip: 10.42.0.70
   - hostname: r7grab # Lenovo T61
     mac: 00:1e:37:90:17:77
-    ip: 10.20.0.71
+    ip: 10.42.0.71
   - hostname: r8mix # ASUS 17in
     mac: 14:da:e9:ce:62:b4
-    ip: 10.20.0.80
+    ip: 10.42.0.80
   - hostname: r8grab # Lenovo T410 SPARE
     mac: f0:de:f1:49:72:60
-    ip: 10.20.0.81
+    ip: 10.42.0.81
 
   - hostname: spare1
     mac: 00:1e:37:90:18:12
