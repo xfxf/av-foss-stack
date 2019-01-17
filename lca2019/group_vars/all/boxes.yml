@@ -1,12 +1,9 @@
 ---
 staticips:
   hosts:
-  - hostname: gw
-    ip: 10.20.0.1
-    mac: 00:05:1b:b0:47:9d
   - hostname: storage
-    ip: 10.20.0.2
-    mac: 0c:c4:7a:a3:25:8a
+    ip: 10.42.0.1
+    mac: a0:f3:c1:10:7f:7a
 
   - hostname: r1mix # Dell 9020 DESKTOP
     mac: 98:90:96:a7:d8:30
