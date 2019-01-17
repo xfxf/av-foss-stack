@@ -35,8 +35,8 @@ debian_suites: [stretch]
 apt_proxy: true
 
 # Git repos:
-playbook_repo: https://salsa.debian.org/carlfk-guest/ansible
-playbook_branch: ansible-out
+playbook_repo: https://salsa.debian.org/debconf-video-team/ansible
+playbook_branch: master
 
 # To replace the stock inventory with your own, point at your own github repo
 inventory_repo: https://github.com/xfxf/av-foss-stack.git
