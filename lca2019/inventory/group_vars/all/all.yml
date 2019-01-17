@@ -1,0 +1,64 @@
+---
+user_name: juser
+user_password_crypted: "$6$khprmotoVWYLZY2W$Gj5Y6p4R.LsXQdL2xf6umhInzZ9GCG6USXB0XIl86m5.IbqSOPXJ0mxVUE7y5kGFE/arHgExAxoz0kEULiplZ."
+
+autologin: True
+
+conference_name: LCA
+conference_town: Christchurch
+conference_country: New Zealand
+
+org: lca
+show: lca2019
+
+irc:
+  network: freenode
+  server: chat.freenode.net
+  ssl_port: 6697
+  global_channels:
+  - "#lca-av"
+
+time_zone: Pacific/Auckland
+
+domain: private.lan
+nfs_server: storage
+
+distro: Debian
+debian_version: stretch
+enable_sid: false
+enable_oldstable: true
+
+debian_host: deb.debian.org
+debian_suites: [stretch]
+
+apt_proxy: true
+
+# Git repos:
+playbook_repo: https://salsa.debian.org/debconf-video-team/ansible
+playbook_branch: master
+
+# To replace the stock inventory with your own, point at your own github repo
+inventory_repo: https://github.com/xfxf/av-foss-stack.git
+inventory_branch: master
+inventory_dir: lca2019
+
+serial_terminal:
+- tio
+- minicom
+
+sources:
+- Camera
+- Grabber
+
+voctomix:
+  display_system: gl
+  framerate: 25
+  #loop_url: http://gw/lca2018.ts
+  # Opsis
+  host: localhost
+  port: 10000
+
+# Late night, early morning
+rsync_excludes:
+- "0[0-7]_*.ts"
+- "2[0-3]_*.ts"

@@ -1,0 +1,7 @@
+---
+room_name: room7
+irc_room_channel: "#lca2018-room7"
+irc_nick: lcaav_room7
+
+# FIXME: Removed for testing
+#video_disk: /dev/sdb

@@ -1,0 +1,20 @@
+# inventory/host_vars/edge.yml
+
+dnsmasq__bind_interfaces: False
+
+# wifi is connection to the venu internet
+dnsmasq__upstream_interfaces: ['wlp8s0b1',]
+
+# pxe machines will be connected to wired port
+dnsmasq__interfaces:
+ - interface: 'enp0s25'
+
+eth_uplink_mac_address: cc:b0:da:b5:0b:e1 # wifi
+
+eth_local_mac_address: c8:5b:76:94:05:a5 # wired
+eth_local_ip_address: 10.20.0.3
+dhcp_range: 10.20.0.128,10.20.0.254,6h
+# eth_local_ip_gateway: 10.42.0.1 # twist uplink
+
+# what the pxe server can install
+ubuntu_suites: [xenial, zesty, artful]

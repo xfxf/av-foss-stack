@@ -1,0 +1,9 @@
+eth_uplink_mac_address: 60:67:20:ed:00:e4 # wifi
+eth_uplink_wifi_ssid: GoogleGuest
+firmware_packages:
+- firmware-iwlwifi
+
+eth_local_mac_address: 3c:97:0e:53:ce:07 # wired
+eth_local_ip_address: 10.40.0.1
+tftp_server: 10.40.0.1
+dhcp_range: 10.40.0.128,10.40.0.254,6h
