@@ -1,8 +1,7 @@
 [dhcp-server]
-gw
+storage
 
 [nfs-server]
-gw
 storage
 
 [voctomix]
@@ -12,15 +11,9 @@ r3mix
 r4mix
 r5mix
 r6mix
-r7mix
-r8mix
-
-smell
 
 [opsis]
 r1grab
-r1grab2
-r1grab3
 r2mix
 r2grab
 r3mix
@@ -31,25 +24,15 @@ r5mix
 r5grab
 r6mix
 r6grab
-r7mix
-r7grab
-r8mix
-r8grab
-
-minnow1
-minnow2
 
 [veyepar-basic]
 storage
-edge
 
 [veyepar-encoder-nfs-storage]
 
 [voctotests]
 
 [xorg]
-nuc
-gw
 spare1
 spare2
 spare3
@@ -58,8 +41,6 @@ spare5
 spare6
 
 [onsite]
-spare2
-# edge
 
 [onsite:children]
 dhcp-server
