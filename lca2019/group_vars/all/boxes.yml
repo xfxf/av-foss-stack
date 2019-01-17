@@ -7,8 +7,9 @@ staticips:
 
   - hostname: r1mix # Dell 9020 DESKTOP
     ip: 10.42.0.10
-  - hostname: r1grab # Lenovo T410
+  - hostname: r1grab1 # Lenovo T420s
     ip: 10.42.0.11
+    mac: F0:DE:F1:87:08:2C
   - hostname: r1grab2 # Lenovo T410
     ip: 10.42.0.12
     mac: f0:de:f1:49:04:62
