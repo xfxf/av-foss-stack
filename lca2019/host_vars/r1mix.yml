@@ -4,8 +4,6 @@ room_name: c1
 irc_room_channel: "#lca2018-c1"
 irc_nick: lcaav_c1
 
-video_disk: /dev/sdb
-
 sources:
 - Camera1
 - Camera2
