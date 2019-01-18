@@ -10,6 +10,10 @@ sources:
 - GrabberL
 - GrabberR
 
+voctomix:
+  display_system: xv
+  framerate: 25
+
 blackmagic:
   urls:
     desktopvideo: http://storage/bm/Blackmagic_Desktop_Video_Linux_10.11.4/deb/x86_64/desktopvideo_10.11.4a9_amd64.deb
