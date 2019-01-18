@@ -5,8 +5,9 @@ staticips:
     ip: 10.42.0.1
     mac: a0:f3:c1:10:7f:7a
 
-  - hostname: r1mix # Dell 9020 DESKTOP
+  - hostname: r1mix # HP EliteDesk 800
     ip: 10.42.0.10
+    mac: 8c:dc:d4:50:57:a8
   - hostname: r1grab1 # Lenovo T420s
     ip: 10.42.0.11
     mac: F0:DE:F1:87:08:2C
