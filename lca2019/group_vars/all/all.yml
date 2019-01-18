@@ -53,7 +53,7 @@ sources:
 voctomix:
   display_system: gl
   framerate: 25
-  #loop_url: http://gw/lca2018.ts
+  #loop_url: http://gw/lca2019.ts
   # Opsis
   host: localhost
   port: 10000

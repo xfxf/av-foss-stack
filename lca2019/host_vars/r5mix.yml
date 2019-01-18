@@ -1,7 +1,7 @@
 ---
 room_name: a2
 
-irc_room_channel: "#lca2018-a2"
+irc_room_channel: "#lca2019-a2"
 irc_nick: lcaav_a2
 
 alsa_device: hw:1,0
