@@ -1,5 +1,8 @@
-
 ---
+room_name: a3
+irc_room_channel: "#lca2019-a3"
+irc_nick: lcaav-a3-g
+
 static_ip: 10.42.0.61
 voctomix:
   host: 10.42.0.60
