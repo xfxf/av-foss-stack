@@ -68,6 +68,9 @@ staticips:
   - hostname: r7grab # Lenovo T410
     ip: 10.42.0.71
     mac: F0:DE:F1:49:04:e2
+  - hostname: r8grab # Lenovo T430s
+    ip: 10.42.0.81
+    mac: 3C:97:0E:64:FC:D8
 
   - hostname: test-station
     ip: 10.42.0.142
