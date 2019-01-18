@@ -1,8 +1,5 @@
-
 ---
 room_name: c2
-
-static_ip: 10.42.0.20
 
 irc_room_channel: "#lca2018-c2"
 irc_nick: lcaav_c2
@@ -11,7 +8,3 @@ alsa_device: hw:1,0
 audio_delay: 0
 
 video_disk: /dev/sdb
-
-sources:
-- Camera1
-- Grabber
