@@ -21,7 +21,7 @@ blackmagic_sources:
 - card: 0
   connection: SDI
   audio: true
-  mode: 17
+  mode: 720p50
 
 streaming:
   method: rtmp
