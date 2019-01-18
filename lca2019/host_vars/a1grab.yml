@@ -7,3 +7,5 @@ static_ip: 10.42.0.41
 voctomix:
   host: 10.42.0.40
   port: 10001
+
+video_delay: 10000
