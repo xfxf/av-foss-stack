@@ -17,6 +17,7 @@ sources:
 - Grabber
 
 streaming:
+  mix_channels: false
   method: rtmp
   hq_config:
     video_bitrate: 2000 # kbps
