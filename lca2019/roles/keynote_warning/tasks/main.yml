@@ -1,0 +1,16 @@
+---
+- name: Put a big warning on keynote venues
+  copy:
+    src: keynote-banner.sh
+    dest: /etc/profile.d/keynote-banner.sh
+  when: keynote_venue
+  tags:
+  - motd
+
+- name: Remove keynote warning
+  file:
+    path: /etc/profile.d/keynote-banner.sh
+    state: absent
+  when: not keynote_venue
+  tags:
+  - motd

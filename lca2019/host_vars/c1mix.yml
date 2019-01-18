@@ -3,6 +3,7 @@ room_name: c1
 
 irc_room_channel: "#lca2019-c1"
 irc_nick: lcaav-c1
+keynote_venue: true
 
 sources:
 - Camera1
