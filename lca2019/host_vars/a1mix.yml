@@ -2,7 +2,7 @@
 room_name: a1
 
 irc_room_channel: "#lca2019-a1"
-irc_nick: lcaav_a1
+irc_nick: lcaav-a1
 
 alsa_device: hw:1,0
 audio_delay: 0

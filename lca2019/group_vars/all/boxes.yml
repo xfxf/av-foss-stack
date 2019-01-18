@@ -5,64 +5,64 @@ staticips:
     ip: 10.42.0.1
     mac: a0:f3:c1:10:7f:7a
 
-  - hostname: r1mix # HP EliteDesk 800
+  - hostname: c1mix # HP EliteDesk 800
     ip: 10.42.0.10
     mac: 8c:dc:d4:50:57:a8
-  - hostname: r1grab1 # Lenovo T420s
+  - hostname: c1grab1 # Lenovo T420s
     ip: 10.42.0.11
     mac: F0:DE:F1:87:08:2C
-  - hostname: r1grab2 # Lenovo T410
+  - hostname: c1grab2 # Lenovo T410
     ip: 10.42.0.12
     mac: f0:de:f1:49:04:62
-  - hostname: r1grab3 #Lenovo T410
+  - hostname: c1grab3 #Lenovo T410
     ip: 10.42.0.13
     mac: f0:de:f1:49:72:60
-  - hostname: r1vnc # Lenovo T510
+  - hostname: c1vnc # Lenovo T510
     ip: 10.42.0.19
     mac: f0:de:f1:4c:31:95
-  - hostname: r2mix # Lenovo W530
+  - hostname: c2mix # Lenovo W530
     ip: 10.42.0.20
     mac: 3c:97:0e:7f:d8:c0
-  - hostname: r2grab # Lenovo T420s
+  - hostname: c2grab # Lenovo T420s
     ip: 10.42.0.21
     mac: f0:de:f1:79:df:9c
-  - hostname: r2vnc # Lenovo T510
+  - hostname: c2vnc # Lenovo T510
     ip: 10.42.0.29
     mac: F0:DE:F1:4C:30:34
-  - hostname: r3mix # Lenovo W530
+  - hostname: c3mix # Lenovo W530
     ip: 10.42.0.30
     mac: 3c:97:0e:9d:af:4f
-  - hostname: r3grab # Lenovo T430s
+  - hostname: c3grab # Lenovo T430s
     ip: 10.42.0.31
     mac: 3c:97:0e:4f:73:0e
-  - hostname: r3vnc # T510
+  - hostname: c3vnc # T510
     ip: 10.42.0.39
     mac: F0:DE:F1:4C:40:76
-  - hostname: r4mix # Lenovo W530
+  - hostname: a1mix # Lenovo W530
     ip: 10.42.0.40
     mac: 3c:97:0e:9d:af:50
-  - hostname: r4grab # Lenovo T420s
+  - hostname: a1grab # Lenovo T420s
     ip: 10.42.0.41
     mac: 3C:97:0E:12:94:0B
-  - hostname: r4vnc # Lenovo T430s
+  - hostname: a1vnc # Lenovo T430s
     ip: 10.42.0.49
     mac: 3C:97:0E:64:FB:81
-  - hostname: r5vnc # T430s
+  - hostname: a2vnc # T430s
     ip: 10.42.0.59
     mac: 3C:97:0E:64:FC:D3
-  - hostname: r5mix # Lenovo W530
+  - hostname: a2mix # Lenovo W530
     mac: 3c:97:0e:7f:d9:4c
     ip: 10.42.0.50
-  - hostname: r5grab # Lenovo T410
+  - hostname: a2grab # Lenovo T410
     mac: f0:de:f1:49:72:35
     ip: 10.42.0.51
-  - hostname: r6mix # Lenovo W530
+  - hostname: a3mix # Lenovo W530
     ip: 10.42.0.60
     mac: 3c:97:0e:53:ce:07
-  - hostname: r6grab # Lenovo T410
+  - hostname: a3grab # Lenovo T410
     ip: 10.42.0.61
     mac: 3C:97:0E:64:FB:D1
-  - hostname: r6vnc # Lenovo T410
+  - hostname: a3vnc # Lenovo T410
     ip: 10.42.0.69
     mac: f0:de:f1:20:0f:0b
   - hostname: r7grab # Lenovo T410

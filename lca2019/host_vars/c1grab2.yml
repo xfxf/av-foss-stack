@@ -1,8 +1,8 @@
 ---
 room_name: c1
 irc_room_channel: "#lca2019-c1"
-irc_nick: lcaav_r1g3
+irc_nick: lcaav-c1-g2
 
 voctomix:
   host: 10.42.0.10
-  port: 10003
+  port: 10002
