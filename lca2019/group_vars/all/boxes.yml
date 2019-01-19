@@ -82,5 +82,11 @@ staticips:
     ip: 10.42.0.142
     mac: 00:1e:37:90:18:14
 
+  - hostname: disp1a # EliteDesk mini
+    ip: 10.42.0.101
+    mac: a0:d3:c1:2c:92:3c
+  - hostname: disp2 # EliteDesk mini
+    ip: 10.42.0.102
+
   write_hosts: false
   write_interfaces: false
