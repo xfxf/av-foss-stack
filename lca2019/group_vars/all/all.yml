@@ -59,6 +59,10 @@ voctomix:
   host: localhost
   port: 10000
 
+voctolights:
+- camera: Camera
+  plugin: tomu
+
 veyepar_url: https://veyepar.nextdayvideo.com
 
 # Late night, early morning

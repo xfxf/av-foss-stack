@@ -23,6 +23,10 @@ blackmagic_sources:
   audio: true
   mode: 720p50
 
+voctolights:
+- camera: Camera1
+  plugin: tomu
+
 streaming:
   method: rtmp
   hq_config:
