@@ -63,6 +63,10 @@ r8grab
 disp1
 disp2
 
+spare0
+spare1
+spare2
+
 [onsite]
 
 [onsite:children]

@@ -88,5 +88,15 @@ staticips:
   - hostname: disp2 # EliteDesk mini
     ip: 10.42.0.102
 
+  - hostname: spare0 # Lenovo T410
+    ip: 10.42.0.110
+    mac: f0:de:f1:49:04:a8
+  - hostname: spare1 # Lenovo T61
+    ip: 10.42.0.111
+    mac: 00:1e:37:84:1d:09
+  - hostname: spare2 # Lenovo T410
+    ip: 10.42.0.112
+    mac: f0:de:f1:3e:8d:ae
+
   write_hosts: false
   write_interfaces: false
