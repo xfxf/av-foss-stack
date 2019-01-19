@@ -2,3 +2,7 @@
 - hosts: onsite
   roles:
   - keynote_warning
+
+- hosts: videoplayer
+  roles:
+  - video_player

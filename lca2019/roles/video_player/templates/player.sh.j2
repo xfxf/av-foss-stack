@@ -1,0 +1,17 @@
+#!/bin/sh
+msg() {
+  echo "$2" | zenity --title="player.sh" --text-info --timeout $1 --font "Mono 50" --no-interaction --modal &
+}
+
+while [ 1 ]
+do
+  ffplay \
+    -autoexit -exitonkeydown -exitonmousedown -fs -an -loglevel error \
+    -vf "drawtext='text=%{localtime} @%{pts\:hms}:fontcolor=white:fontsize=32:borderw=2:x=2:y=2:font=DejaVuSansMono'" \
+    -reconnect_at_eof 1 -timeout 1000 \
+    "{{ url }}"
+  msg 3 "{{ reconnect_msg }}\n$(date)"
+  sleep 3s
+done
+
+exit 0

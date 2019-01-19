@@ -1,0 +1,4 @@
+---
+video_player:
+  url: "async:http://192.0.2.1:8000/"
+  reconnect_msg: "Reconnecting in a moment..."

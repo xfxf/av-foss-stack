@@ -1,0 +1,6 @@
+#!/bin/sh
+matchbox-window-manager &
+pkill -9 -f player.sh
+killall -9 ffplay
+exec ./player.sh
+exit 0

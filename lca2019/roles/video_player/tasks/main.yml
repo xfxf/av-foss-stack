@@ -1,0 +1,19 @@
+---
+- name: Install video player packages
+  apt:
+    name: "{{ packages }}"
+  vars:
+    packages:
+    - matchbox-window-manager
+    - mplayer
+    - zenity
+
+  when: video_player
+  tags:
+  - video_player_pkgs
+
+- name: Add xsession
+
+
+- name: Template player.sh
+

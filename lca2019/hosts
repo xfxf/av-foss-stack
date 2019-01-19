@@ -67,6 +67,10 @@ spare0
 spare1
 spare2
 
+[videoplayer]
+disp1
+disp2
+
 [onsite]
 
 [onsite:children]
