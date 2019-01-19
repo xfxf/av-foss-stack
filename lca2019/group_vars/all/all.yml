@@ -65,3 +65,6 @@ veyepar_url: https://veyepar.nextdayvideo.com
 rsync_excludes:
 - "0[0-7]_*.ts"
 - "2[0-3]_*.ts"
+
+extra_debs:
+- http://storage/debs/voctomix-outcasts_0.7.0-1_all.deb
