@@ -87,6 +87,7 @@ staticips:
     mac: a0:d3:c1:2c:92:3c
   - hostname: disp2 # EliteDesk mini
     ip: 10.42.0.102
+    mac: 64:51:06:41:b2:e9
 
   - hostname: spare0 # Lenovo T410
     ip: 10.42.0.110
