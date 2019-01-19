@@ -5,7 +5,7 @@ irc_room_channel: "#lca2019-a3"
 irc_nick: lcaav-a3
 
 alsa_device: hw:1,0
-audio_delay: 0
+audio_delay: 750
 
 video_disk: /dev/sdb
 
