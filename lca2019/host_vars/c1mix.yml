@@ -25,7 +25,7 @@ blackmagic_sources:
 - card: 1
   connection: HDMI
   audio: false
-  mode: 720p50
+  mode: 720p60
 
 voctolights:
 - camera: Camera1
