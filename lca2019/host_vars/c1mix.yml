@@ -22,6 +22,10 @@ blackmagic_sources:
   connection: SDI
   audio: true
   mode: 720p50
+- card: 1
+  connection: HDMI
+  audio: false
+  mode: 720p50
 
 voctolights:
 - camera: Camera1
