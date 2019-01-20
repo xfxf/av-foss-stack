@@ -17,7 +17,6 @@ r8mix
 [opsis]
 c1grab1
 c1grab2
-c1grab3
 c2mix
 c2grab
 c3mix
@@ -66,6 +65,7 @@ disp2
 spare0
 spare1
 spare2
+spare3
 
 [onsite]
 

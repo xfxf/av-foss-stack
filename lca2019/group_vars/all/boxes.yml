@@ -14,9 +14,6 @@ staticips:
   - hostname: c1grab2 # Lenovo T410
     ip: 10.42.0.12
     mac: f0:de:f1:49:04:62
-  - hostname: c1grab3 #Lenovo T410
-    ip: 10.42.0.13
-    mac: f0:de:f1:49:72:60
   - hostname: c1vnc # Lenovo T510
     ip: 10.42.0.19
     mac: f0:de:f1:4c:31:95
@@ -98,6 +95,9 @@ staticips:
   - hostname: spare2 # Lenovo T410
     ip: 10.42.0.112
     mac: f0:de:f1:3e:8d:ae
+  - hostname: spare3 # Lenovo T410
+    ip: 10.42.0.113
+    mac: f0:de:f1:49:72:60
 
   write_hosts: false
   write_interfaces: false
