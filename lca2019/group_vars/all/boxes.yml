@@ -99,5 +99,5 @@ staticips:
     ip: 10.42.0.113
     mac: f0:de:f1:49:72:60
 
-  write_hosts: false
-  write_interfaces: false
+  write_hosts: true
+  write_interfaces: true
