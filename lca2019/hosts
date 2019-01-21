@@ -34,8 +34,6 @@ r8grab
 [veyepar-basic]
 storage
 
-[encoder]
-
 [veyepar-encoder-nfs-storage]
 encoder1
 
@@ -70,7 +68,7 @@ spare3
 [onsite]
 
 [onsite:children]
-encoder
+veyepar-encoder-nfs-storage
 nfs-server
 opsis
 test-station
