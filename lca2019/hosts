@@ -35,9 +35,9 @@ r8grab
 storage
 
 [encoder]
-encoder1
 
 [veyepar-encoder-nfs-storage]
+encoder1
 
 [test-station]
 test-station
