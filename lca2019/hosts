@@ -29,13 +29,13 @@ a3mix
 a3grab
 r7mix
 r7grab
-r8mix
 r8grab
 
 [veyepar-basic]
 storage
 
 [encoder]
+encoder1
 
 [veyepar-encoder-nfs-storage]
 

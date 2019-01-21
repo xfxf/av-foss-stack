@@ -74,13 +74,14 @@ staticips:
   - hostname: r8grab # Lenovo T430s
     ip: 10.42.0.81
     mac: 3C:97:0E:64:FC:D8
-  - hostname: r8mix # EliteDesk 800 G1
-    ip: 10.42.0.80
-    mac: 8c:dc:d4:4a:31:22
 
   - hostname: test-station
     ip: 10.42.0.142
     mac: 00:1e:37:90:18:14
+
+  - hostname: encoder1 # EliteDesk 800 G1
+    ip: 10.42.0.91
+    mac: 8c:dc:d4:4a:31:22
 
   - hostname: disp1 # EliteDesk mini
     ip: 10.42.0.101
