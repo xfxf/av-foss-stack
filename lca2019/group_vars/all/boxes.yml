@@ -4,6 +4,9 @@ staticips:
   - hostname: storage
     ip: 10.42.0.1
     mac: a0:f3:c1:10:7f:7a
+  - hostname: wifi
+    ip: 10.42.0.2
+    mac: e4:95:6e:40:2e:d3
 
   - hostname: c1mix # HP EliteDesk 800
     ip: 10.42.0.10
