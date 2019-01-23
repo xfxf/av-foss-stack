@@ -82,6 +82,9 @@ staticips:
   - hostname: encoder1 # EliteDesk 800 G1
     ip: 10.42.0.91
     mac: 8c:dc:d4:4a:31:22
+  - hostname: encoder2 # EliteDesk 800 G1
+    ip: 10.42.0.92
+    mac: 8c:dc:d4:50:57:a3
 
   - hostname: disp1 # EliteDesk mini
     ip: 10.42.0.101

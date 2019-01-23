@@ -36,6 +36,8 @@ storage
 
 [veyepar-encoder-nfs-storage]
 encoder1
+encoder2
+encoder3
 
 [test-station]
 test-station
