@@ -5,6 +5,10 @@ eth_local_gateway:
 dhcp_range: 10.42.0.128,10.42.0.254,6h
 
 eth_uplink_mac_address: 8c:dc:d4:42:39:61
-eth_uplink_static: False
+eth_uplink_static: True
+eth_uplink_static_address: 202.36.179.200
+eth_uplink_static_netmask: 26
+eth_uplink_static_gateway: 202.36.179.254
+eth_uplink_dns_server: 1.1.1.1
 
 apt_proxy: true
