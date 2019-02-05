@@ -26,3 +26,7 @@ blackmagic_sources:
 voctolights:
 - camera: Camera1
   plugin: tomu
+
+serial_terminal:
+- tio
+- minicom

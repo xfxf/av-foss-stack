@@ -12,3 +12,7 @@ voctomix:
 voctolights:
 - camera: Camera2
   plugin: tomu
+
+serial_terminal:
+- tio
+- minicom

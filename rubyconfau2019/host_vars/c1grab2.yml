@@ -8,3 +8,7 @@ static_ip: 10.42.0.12
 voctomix:
   host: 10.42.0.10
   port: 10003
+
+serial_terminal:
+- tio
+- minicom
