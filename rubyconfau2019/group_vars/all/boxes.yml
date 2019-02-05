@@ -1,0 +1,19 @@
+---
+staticips:
+  hosts:
+  - hostname: storage
+    ip: 10.42.0.1
+    mac: a0:f3:c1:10:7f:7a
+
+  - hostname: c1mix # Dell Optiplex 9020
+    ip: 10.42.0.10
+    mac: 98:90:96:a7:d8:30
+  - hostname: c1grab1 # Lenovo T420s
+    ip: 10.42.0.11
+    mac: f0:de:f1:3e:8d:ae
+  - hostname: c1grab2 # Lenovo T410
+    ip: 10.42.0.12
+    mac: f0:de:f1:49:04:62
+
+  write_hosts: true
+  write_interfaces: true

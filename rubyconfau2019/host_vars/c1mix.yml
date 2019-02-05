@@ -1,0 +1,28 @@
+---
+room_name: plenary
+
+irc_room_channel: "#rubyconfau-av"
+irc_nick: av-mix1
+keynote_venue: true
+static_ip: 10.42.0.10
+
+sources:
+- Camera1
+- Camera2
+- Grabber
+
+blackmagic:
+  urls:
+    desktopvideo: http://storage/bm/Blackmagic_Desktop_Video_Linux_10.11.4/deb/x86_64/desktopvideo_10.11.4a9_amd64.deb
+    desktopvideo_gui: http://storage/bm/Blackmagic_Desktop_Video_Linux_10.11.4/deb/x86_64/desktopvideo-gui_10.11.4a9_amd64.deb
+  dkms_version: 10.11.4a9
+
+blackmagic_sources:
+- card: 0
+  connection: SDI
+  audio: true
+  mode: 720p50
+
+voctolights:
+- camera: Camera1
+  plugin: tomu

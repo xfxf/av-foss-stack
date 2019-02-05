@@ -1,0 +1,10 @@
+---
+room_name: plenary
+irc_room_channel: "#rubyconfau-av"
+irc_nick: av-grab2
+keynote_venue: true
+static_ip: 10.42.0.12
+
+voctomix:
+  host: 10.42.0.10
+  port: 10003
