@@ -17,7 +17,9 @@ irc:
   server: chat.freenode.net
   ssl_port: 6697
   global_channels:
-  - "#rubyconfau-av'
+  - "#rubyconfau-av"
+
+mirror: mirror.aarnet.edu.au
 
 time_zone: Australia/Melbourne
 
