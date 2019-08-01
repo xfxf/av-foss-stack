@@ -1,10 +1,10 @@
-eth_local_mac_address: a0:f3:c1:10:7f:7a
+eth_local_mac_address: f8:d1:11:00:54:38
 eth_local_address: 10.42.0.1
 eth_local_netmask: 24
 eth_local_gateway:
 dhcp_range: 10.42.0.128,10.42.0.254,6h
 
-eth_uplink_mac_address: 8c:dc:d4:42:39:61
+eth_uplink_mac_address: 60:a4:4c:b0:89:49
 eth_uplink_static: False
 
 apt_proxy: true
