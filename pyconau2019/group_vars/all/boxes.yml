@@ -1,0 +1,52 @@
+---
+staticips:
+  hosts:
+  - hostname: storage
+    ip: 10.42.0.1
+    mac: a0:f3:c1:10:7f:7a
+
+  - hostname: r1mix
+    ip: 10.42.0.10
+    mac: 98:90:96:a7:d8:30
+  - hostname: r1grab1
+    ip: 10.42.0.11
+    mac: f0:de:f1:3e:8d:ae
+  - hostname: r1grab2
+    ip: 10.42.0.12
+    mac: f0:de:f1:49:04:62
+
+  - hostname: r2mix
+    ip: 10.42.0.20
+    mac: 3c:97:0e:9d:af:50
+  - hostname: r2grab
+    ip: 10.42.0.21
+    mac: f0:de:f1:49:04:ce
+
+  - hostname: r3mix
+    ip: 10.42.0.30
+    mac: 3c:97:0e:53:ce:07
+  - hostname: r3grab
+    ip: 10.42.0.31
+    mac: f0:de:f1:49:04:e2
+
+  - hostname: r4mix
+    ip: 10.42.0.40
+    mac: 3c:97:0e:7f:d9:4c
+  - hostname: r4grab
+    ip: 10.42.0.41
+    mac: f0:de:f1:49:72:35
+
+  - hostname: r5mix
+    ip: 10.42.0.50
+    mac: 14:de:e9:ce:62:b4
+  - hostname: r5grab
+    ip: 10.42.0.51
+    mac: f0:de:f1:49:72:60
+
+
+  - hostname: test-station
+    ip: 10.42.0.142
+    mac: 00:1e:37:90:18:14
+
+  write_hosts: false
+  write_interfaces: false

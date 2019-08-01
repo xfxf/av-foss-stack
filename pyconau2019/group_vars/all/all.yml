@@ -1,0 +1,67 @@
+---
+user_name: juser
+user_password_crypted: "$6$khprmotoVWYLZY2W$Gj5Y6p4R.LsXQdL2xf6umhInzZ9GCG6USXB0XIl86m5.IbqSOPXJ0mxVUE7y5kGFE/arHgExAxoz0kEULiplZ."
+
+autologin: True
+
+conference_name: pyconau
+conference_town: Sydney
+conference_country: Australia
+
+org: pyconau
+show: pyconau2019
+
+irc:
+  autostart: true
+  network: freenode
+  server: chat.freenode.net
+  ssl_port: 6697
+  global_channels:
+  - "#pyconau-av"
+
+time_zone: Australia/Sydney
+
+domain: private.lan
+nfs_server: storage
+
+distro: Debian
+debian_version: stretch
+enable_sid: false
+enable_oldstable: true
+
+debian_host: deb.debian.org
+debian_suites: [stretch]
+
+apt_proxy: true
+
+# Git repos:
+playbook_repo: https://salsa.debian.org/debconf-video-team/ansible
+playbook_branch: master
+
+# To replace the stock inventory with your own, point at your own github repo
+inventory_repo: https://github.com/xfxf/av-foss-stack.git
+inventory_repo_dir: pyconau2019
+
+serial_terminal:
+- tio
+- minicom
+
+sources:
+- Camera
+- Grabber
+
+voctomix:
+  display_system: gl
+  framerate: 25
+  previews: False
+  #loop_url: http://gw/lca2019.ts
+  # Opsis
+  host: localhost
+  port: 10000
+
+veyepar_url: https://veyepar.nextdayvideo.com
+
+# Late night, early morning
+rsync_excludes:
+- "0[0-7]_*.ts"
+- "2[0-3]_*.ts"

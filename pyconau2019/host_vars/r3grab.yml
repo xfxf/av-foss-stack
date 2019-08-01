@@ -1,0 +1,10 @@
+---
+room_name: r3
+irc_room_channel: "#pyconau2019-r3"
+irc_nick: pcau-r3-g
+keynote_venue: true
+
+static_ip: 10.42.0.31
+voctomix:
+  host: 10.42.0.30
+  port: 10001

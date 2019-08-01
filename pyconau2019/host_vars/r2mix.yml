@@ -1,0 +1,8 @@
+---
+room_name: r2
+
+irc_room_channel: "#pyconau2019-r2"
+irc_nick: pycau-r2
+static_ip: 10.42.0.20
+
+video_disk: /dev/sdb
