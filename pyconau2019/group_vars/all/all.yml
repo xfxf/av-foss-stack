@@ -35,7 +35,7 @@ debian_suites: [buster]
 apt_proxy: true
 
 # Git repos:
-playbook_repo: https://salsa.debian.org/debconf-video-team/ansible
+playbook_repo: https://salsa.debian.org/peer-guest/ansible
 playbook_branch: master
 
 # To replace the stock inventory with your own, point at your own github repo
@@ -54,6 +54,7 @@ voctomix:
   display_system: gl
   framerate: 25
   previews: False
+  bgimage_url: http://storage/loop/pycon-white-bg.png
   #loop_url: http://gw/lca2019.ts
   # Opsis
   host: localhost
