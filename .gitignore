@@ -2,3 +2,4 @@
 .*.swp
 vault.pw
 *~
+.DS_Store
