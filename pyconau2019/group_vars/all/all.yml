@@ -25,12 +25,12 @@ domain: private.lan
 nfs_server: storage
 
 distro: Debian
-debian_version: stretch
+debian_version: buster
 enable_sid: false
 enable_oldstable: true
 
 debian_host: deb.debian.org
-debian_suites: [stretch]
+debian_suites: [buster]
 
 apt_proxy: true
 
