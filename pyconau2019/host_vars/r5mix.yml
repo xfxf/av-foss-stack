@@ -4,5 +4,3 @@ room_name: r5
 irc_room_channel: "#pyconau2019-r5"
 irc_nick: pycau-r5
 static_ip: 10.42.0.50
-
-video_disk: /dev/sdb
