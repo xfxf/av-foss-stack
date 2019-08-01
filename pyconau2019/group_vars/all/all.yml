@@ -9,7 +9,7 @@ conference_town: Sydney
 conference_country: Australia
 
 org: pyconau
-show: pyconau2019
+show: pyconau_2019
 
 irc:
   autostart: true
