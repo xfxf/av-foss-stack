@@ -30,12 +30,8 @@ storage
 # SReview, not veyepar apparently
 
 [veyepar-encoder-nfs-storage]
-r1mix
-r2mix
-r3mix
-r4mix
 r5mix
-r5encode
+#r5encode
 
 [test-station]
 
