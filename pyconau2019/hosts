@@ -27,11 +27,15 @@ r5grab
 storage
 
 [encoder]
+r1mix
+r2mix
+r3mix
+r4mix
+r5mix
 
 [veyepar-encoder-nfs-storage]
 
 [test-station]
-test-station
 
 [xorg]
 r1mix
