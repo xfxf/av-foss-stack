@@ -55,7 +55,7 @@ voctomix:
   framerate: 25
   previews: False
   autostart_gui: True
-  bgimage_url: http://storage/loop/pycon-white-bg.png
+  bgimage_url: http://storage/loops/pycon-white-bg.png
   #loop_url: http://gw/lca2019.ts
   # Opsis
   host: localhost
