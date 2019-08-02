@@ -42,6 +42,9 @@ staticips:
   - hostname: r5grab
     ip: 10.42.0.51
     mac: f0:de:f1:49:04:a8
+  - hostname: r5encode
+    ip: 10.42.0.52
+    mac: 3c:97:0e:9d:af:4f
 
 
   - hostname: test-station
