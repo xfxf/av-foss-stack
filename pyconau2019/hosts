@@ -27,13 +27,14 @@ r5grab
 storage
 
 [encoder]
+# SReview, not veyepar apparently
+
+[veyepar-encoder-nfs-storage]
 r1mix
 r2mix
 r3mix
 r4mix
 r5mix
-
-[veyepar-encoder-nfs-storage]
 
 [test-station]
 
