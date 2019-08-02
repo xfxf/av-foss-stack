@@ -1,0 +1,10 @@
+---
+room_name: spare2
+irc_room_channel: "#pyconau2019-r6"
+irc_nick: pcau-r6-g
+keynote_venue: true
+
+static_ip: 10.42.0.61
+voctomix:
+  host: 10.42.0.60
+  port: 10001
