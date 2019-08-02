@@ -4,7 +4,7 @@ irc_room_channel: "#pyconau2019-r5"
 irc_nick: pcau-r5-g
 keynote_venue: true
 
-static_ip: 10.42.0.51
+static_ip: 10.42.0.81
 voctomix:
   host: 10.42.0.50
   port: 10001
