@@ -10,6 +10,7 @@ r2mix
 r3mix
 r4mix
 r5mix
+r6mix
 
 [opsis]
 r1grab1
@@ -22,6 +23,8 @@ r4mix
 r4grab
 r5mix
 r5grab
+r6mix
+r6grab
 
 [veyepar-basic]
 storage
@@ -48,6 +51,8 @@ r4grab
 r5mix
 r5grab
 r5encode
+r6mix
+r6grab
 
 [onsite]
 
