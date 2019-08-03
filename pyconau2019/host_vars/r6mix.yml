@@ -3,6 +3,6 @@ room_name: spare2
 
 irc_room_channel: "#pyconau2019-r6"
 irc_nick: pycau-r6
-static_ip: 10.42.0.60
+static_ip: 10.42.0.70
 
 video_disk: /dev/sdb
