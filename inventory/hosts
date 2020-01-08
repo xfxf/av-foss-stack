@@ -1,15 +1,15 @@
 [tftp-dhcp-server]
-storage
+gw
 
 [nfs-server]
-storage
+gw
 
 [voctomix]
 
 [opsis]
 
 [veyepar-basic]
-storage
+gw
 
 [encoder]
 # SReview, not veyepar apparently
