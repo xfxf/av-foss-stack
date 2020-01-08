@@ -1,0 +1,19 @@
+---
+user_name: juser
+user_password_crypted: "$6$khprmotoVWYLZY2W$Gj5Y6p4R.LsXQdL2xf6umhInzZ9GCG6USXB0XIl86m5.IbqSOPXJ0mxVUE7y5kGFE/arHgExAxoz0kEULiplZ."
+
+time_zone: Australia/Brisbane
+
+debian_host: ftp.au.debian.org
+
+apt_proxy: true
+
+# Git repos:
+playbook_repo: https://salsa.debian.org/carlfk-guest/ansible
+playbook_branch: lca2020
+
+inventory_repo: https://github.com/xfxf/av-foss-stack.git
+inventory_repo_dir: inventory
+
+# veyepar_url: https://veyepar.nextdayvideo.com
+
