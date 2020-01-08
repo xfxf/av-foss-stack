@@ -1,32 +1,7 @@
-[tftp-dhcp-server]
+[pxe]
 gw
-
-[nfs-server]
-gw
-
-[voctomix]
-
-[opsis]
-
-[veyepar-basic]
-gw
-
-[encoder]
-# SReview, not veyepar apparently
-
-[veyepar-encoder-nfs-storage]
-
-[test-station]
-
-[xorg]
 
 [onsite]
 
 [onsite:children]
-encoder
-nfs-server
-opsis
-test-station
-tftp-dhcp-server
-voctomix
-xorg
+pxe
