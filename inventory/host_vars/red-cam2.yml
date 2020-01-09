@@ -6,6 +6,6 @@ irc_nick: lcaav-arena-cam2
 static_ip: 10.42.0.12
 voctomix:
   host: 10.42.0.10
-  port: 10001
+  port: 10002
 
 video_delay: 10000

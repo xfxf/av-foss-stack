@@ -13,7 +13,7 @@ red-mix
 [opsis]
 blue-cam
 orange-cam
-red-cam1
+red-grab
 red-cam2
 
 [veyepar-basic]
@@ -31,7 +31,7 @@ magenta-mix
 orange-mix
 orange-cam
 red-mix
-red-cam1
+red-grab
 red-cam2
 
 [onsite]
