@@ -1,4 +1,4 @@
-[tftp-dhcp-server]
+[pxe]
 gw
 
 [nfs-server]
@@ -21,11 +21,6 @@ test-station
 [xorg]
 blue-mix
 blue-grab 
-
-spare0
-spare1
-spare2
-spare3
 
 [onsite]
 
