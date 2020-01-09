@@ -7,3 +7,5 @@ autologin: True
 time_zone: Australia/Brisbane
 
 domain: private.lan
+
+debian_version: stretch
