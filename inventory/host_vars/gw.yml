@@ -1,10 +1,15 @@
-eth_local_mac_address: f8:d1:11:00:54:38
-eth_local_address: 10.42.0.1
-eth_local_netmask: 24
-eth_local_gateway:
-dhcp_range: 10.42.0.128,10.42.0.254,6h
+---
+domain: private.lan
 
-eth_uplink_mac_address: 60:a4:4c:b0:89:49
-eth_uplink_static: False
+debian_host: ftp.au.debian.org
 
 apt_proxy: true
+
+# Git repos:
+playbook_repo: https://salsa.debian.org/carlfk-guest/ansible
+playbook_branch: lca2020
+
+inventory_repo: https://github.com/xfxf/av-foss-stack.git
+inventory_repo_dir: inventory
+
+

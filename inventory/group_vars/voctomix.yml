@@ -1,5 +1,12 @@
-alsa_device: hw:1,0
-audio_delay: 0
+sources:
+- Grabber
+- Camera
+
+voctomix:
+  display_system: x
+  framerate: "{{ frequency / 2 }}"
+  previews: true
+  autostart_gui: false
 
 streaming:
   method: rtmp
