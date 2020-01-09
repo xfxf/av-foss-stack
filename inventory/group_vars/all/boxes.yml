@@ -13,7 +13,7 @@ staticips:
     ip: 10.42.0.80
     mac: 3c:97:0e:7f:d9:4c
 
-  - hostname: blue-grab # Lenovo T410
+  - hostname: blue-cam # Lenovo T410
     ip: 10.42.0.81
     mac: f0:de:f1:49:04:a8
 
@@ -25,7 +25,7 @@ staticips:
     ip: 10.42.0.50
     mac: 3c:97:0e:9d:af:50
 
-  - hostname: orange-grab # Lenovo T410
+  - hostname: orange-cam # Lenovo T410
     ip: 10.42.0.51
     mac: f0:de:f1:49:04:62
 
@@ -33,11 +33,11 @@ staticips:
     ip: 10.42.0.10
     mac: 68:05:ca:57:d7:9f 
 
-  - hostname: red-grab1 # Lenovo T420s
+  - hostname: red-cam1 # Lenovo T420s
     ip: 10.42.0.11
     mac: F0:DE:F1:87:08:2C
 
-#  - hostname: red-grab2 # Lenovo T410
+#  - hostname: red-cam2 # Lenovo T410
 #    ip: 10.42.0.12
 #    mac: xx:xx:xx:xx:xx:xx
 

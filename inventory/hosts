@@ -11,10 +11,10 @@ orange-mix
 red-mix
 
 [opsis]
-blue-grab
-orange-grab
-red-grab1
-red-grab2
+blue-cam
+orange-cam
+red-cam1
+red-cam2
 
 [veyepar-basic]
 #gw
@@ -26,13 +26,13 @@ test-station
 
 [xorg]
 blue-mix
-blue-grab 
+blue-cam 
 magenta-mix
 orange-mix
-orange-grab
+orange-cam
 red-mix
-red-grab1
-red-grab2
+red-cam1
+red-cam2
 
 [onsite]
 
