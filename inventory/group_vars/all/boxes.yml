@@ -1,0 +1,17 @@
+---
+staticips:
+  hosts:
+  - hostname: gw
+    ip: 10.42.0.1
+    mac: f8:d1:11:00:54:38
+
+  - hostname: wifi
+    ip: 10.42.0.2
+    mac: e4:95:6e:40:2e:d3
+
+  - hostname: blue-mix # Lenovo W530    
+    ip: 10.42.0.10
+    mac: 3c:97:0e:7f:d9:4c
+
+  write_hosts: true
+  write_interfaces: true
