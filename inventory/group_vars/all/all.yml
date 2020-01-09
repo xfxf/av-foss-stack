@@ -2,6 +2,8 @@
 user_name: juser
 user_password_crypted: "$6$khprmotoVWYLZY2W$Gj5Y6p4R.LsXQdL2xf6umhInzZ9GCG6USXB0XIl86m5.IbqSOPXJ0mxVUE7y5kGFE/arHgExAxoz0kEULiplZ."
 
+autologin: True
+
 time_zone: Australia/Brisbane
 domain: private.lan
 
