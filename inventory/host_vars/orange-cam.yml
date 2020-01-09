@@ -1,7 +1,7 @@
 ---
-room_name: room8
-irc_room_channel: "#lca2020-room8"
-irc_nick: lcaav-room8-g
+room_name: room5
+irc_room_channel: "#lca2020-room5"
+irc_nick: lcaav-room5-g
 
 static_ip: 10.42.0.51
 voctomix:
