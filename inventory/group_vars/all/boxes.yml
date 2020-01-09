@@ -31,7 +31,7 @@ staticips:
 
   - hostname: red-mix # HP EliteDesk 800
     ip: 10.42.0.10
-    mac: 8c:dc:d4:50:57:a8
+    mac: 68:05:ca:57:d7:9f 
 
   - hostname: red-grab1 # Lenovo T420s
     ip: 10.42.0.11
