@@ -6,6 +6,7 @@ gw
 
 [voctomix]
 blue-mix
+spare-mix
 
 [opsis]
 blue-grab
@@ -21,6 +22,7 @@ test-station
 [xorg]
 blue-mix
 blue-grab 
+spare-mix
 
 [onsite]
 
