@@ -3,13 +3,11 @@ room_name: arena
 
 irc_room_channel: "#lca2020-arena"
 irc_nick: lcaav-arena
-keynote_venue: true
 
 sources:
 - Camera1
+- Grabber
 - Camera2
-- GrabberL
-- GrabberR
 
 blackmagic:
   urls:
@@ -22,14 +20,6 @@ blackmagic_sources:
   connection: SDI
   audio: true
   mode: 720p50
-- card: 1
-  connection: HDMI
-  audio: false
-  mode: 720p60
-
-voctolights:
-- camera: Camera1
-  plugin: tomu
 
 streaming:
   method: rtmp
