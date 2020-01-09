@@ -7,9 +7,11 @@ gw
 [voctomix]
 blue-mix
 magenta-mix
+orange-mix
 
 [opsis]
 blue-grab
+orange-grab
 
 [veyepar-basic]
 #gw
@@ -23,6 +25,8 @@ test-station
 blue-mix
 blue-grab 
 magenta-mix
+orange-mix
+orange-grab
 
 [onsite]
 
