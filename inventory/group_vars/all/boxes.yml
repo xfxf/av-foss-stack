@@ -10,11 +10,11 @@ staticips:
     mac: e4:95:6e:40:2e:d3
 
   - hostname: blue-mix # Lenovo W530    
-    ip: 10.42.0.10
+    ip: 10.42.0.80
     mac: 3c:97:0e:7f:d9:4c
 
   - hostname: blue-grab # Lenovo T410
-    ip: 10.42.0.11
+    ip: 10.42.0.81
     mac: f0:de:f1:49:04:a8
 
   - hostname: magenta-mix # Lenovo W530
@@ -27,6 +27,18 @@ staticips:
 
   - hostname: orange-mix # Lenovo T410
     ip: 10.42.0.51
+    mac: f0:de:f1:49:04:62
+
+  - hostname: red-mix # HP EliteDesk 800
+    ip: 10.42.0.10
+    mac: 8c:dc:d4:50:57:a8
+
+  - hostname: red-grab1 # Lenovo T420s
+    ip: 10.42.0.11
+    mac: F0:DE:F1:87:08:2C
+
+  - hostname: red-grab2 # Lenovo T410
+    ip: 10.42.0.12
     mac: f0:de:f1:49:04:62
 
   write_hosts: true

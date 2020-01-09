@@ -8,10 +8,13 @@ gw
 blue-mix
 magenta-mix
 orange-mix
+red-mix
 
 [opsis]
 blue-grab
 orange-grab
+red-grab1
+red-grab2
 
 [veyepar-basic]
 #gw
@@ -27,6 +30,9 @@ blue-grab
 magenta-mix
 orange-mix
 orange-grab
+red-mix
+red-grab1
+red-grab2
 
 [onsite]
 
