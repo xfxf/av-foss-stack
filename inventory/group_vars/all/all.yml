@@ -20,3 +20,9 @@ inventory_repo_dir: inventory
 
 # veyepar_url: https://veyepar.nextdayvideo.com
 
+voctomix:
+  display_system: x
+  framerate: "{{ frequency / 2 }}"
+  previews: true
+  autostart_gui: true
+
