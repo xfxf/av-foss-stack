@@ -13,7 +13,7 @@ staticips:
     ip: 10.42.0.10
     mac: 3c:97:0e:7f:d9:4c
 
-  - hostname: spare-mix # Lenovo W530
+  - hostname: magenta-mix # Lenovo W530
     ip: 10.42.0.90
     mac: 3c:97:0e:7f:d8:c0
 
