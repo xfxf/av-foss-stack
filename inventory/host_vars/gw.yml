@@ -3,6 +3,10 @@ domain: private.lan
 
 debian_host: ftp.au.debian.org
 
+debian_suites: 
+  - stretch
+  - buster
+
 apt_proxy: true
 
 # Git repos:
