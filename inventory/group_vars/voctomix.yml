@@ -11,6 +11,8 @@ voctomix:
   framerate: "{{ frequency / 2 }}"
   previews: true
   autostart_gui: false
+  host: localhost
+  port: 10000
 
 alsa_device: hw:1,0
 audio_delay: 0
