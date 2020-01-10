@@ -48,6 +48,14 @@ staticips:
   - hostname: yellow-cam 
     ip: 10.42.0.61
     mac: f0:de:f1:49:04:e2
+ 
+  - hostname: green-mix # Lenovo T410
+    ip: 10.42.0.70
+    mac: 3c:97:0e:9d:af:4f
+
+  - hostname: green-cam # Lenovo W530
+    ip: 10.42.0.71
+    mac: f0:de:f1:49:72:35
 
   write_hosts: true
   write_interfaces: true

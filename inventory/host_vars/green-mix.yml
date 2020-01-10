@@ -1,0 +1,19 @@
+---
+room_name: room7
+
+irc_room_channel: "#lca2020-room7"
+irc_nick: lcaav-room7
+
+# Adding video_disk here instead of as a group var, because the keynote mix has one large disk and doesn't need a secondary
+video_disk: /dev/sdb
+
+streaming:
+  method: rtmp
+  hq_config:
+    video_bitrate: 2000 # kbps
+    audio_bitrate: 128000 # bps
+    keyframe_period: 60 # seconds
+  mix_channels: false
+  rtmp:
+    vaapi: true
+    location: 
