@@ -12,6 +12,9 @@ voctomix:
   previews: true
   autostart_gui: false
 
+alsa_device: hw:1,0
+audio_delay: 0
+
 streaming:
   method: rtmp
   hq_config:
