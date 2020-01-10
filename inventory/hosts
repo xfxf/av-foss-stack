@@ -9,12 +9,14 @@ blue-mix
 magenta-mix
 orange-mix
 red-mix
+yellow-mix
 
 [opsis]
 blue-cam
 orange-cam
 red-grab
 red-cam2
+yellow-cam
 
 [veyepar-basic]
 #gw
@@ -33,6 +35,8 @@ orange-cam
 red-mix
 red-grab
 red-cam2
+yellow-mix
+yellow-cam
 
 [onsite]
 

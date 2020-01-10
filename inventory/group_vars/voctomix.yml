@@ -18,5 +18,6 @@ streaming:
     keyframe_period: 60 # seconds
   mix_channels: true
   rtmp:
+    location:
     vaapi: true
     location:

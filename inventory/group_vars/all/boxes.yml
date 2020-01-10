@@ -41,5 +41,13 @@ staticips:
     ip: 10.42.0.12
     mac: f0:de:f1:49:04:e5
 
+  - hostname: yellow-mix
+    ip: 10.42.0.60
+    mac: 3c:97:0e:53:ce:07
+
+  - hostname: yellow-cam 
+    ip: 10.42.0.61
+    mac: f0:de:f1:49:04:e2
+
   write_hosts: true
   write_interfaces: true
