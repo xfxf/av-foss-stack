@@ -1,6 +1,6 @@
 ---
 room_name: arena
-irc_room_channel: "#lca2020-arena"
+irc_room_channel: "#lca2020"
 irc_nick: lcaav-arena-cam2
 
 static_ip: 10.42.0.12

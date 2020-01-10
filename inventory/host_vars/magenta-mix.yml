@@ -1,7 +1,7 @@
 ---
 room_name: room-spare
 
-irc_room_channel: "#lca2020-spare"
+irc_room_channel: "#lca2020"
 irc_nick: lcaav-spare
 
 # Adding video_disk here instead of as a group var, because the keynote mix has one large disk and doesn't need a secondary
