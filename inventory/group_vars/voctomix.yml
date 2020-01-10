@@ -22,4 +22,3 @@ streaming:
   rtmp:
     location:
     vaapi: true
-    location:
