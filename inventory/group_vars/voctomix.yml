@@ -4,6 +4,8 @@ sources:
 - Grabber
 - Camera
 
+frequency: 50
+
 voctomix:
   display_system: x
   framerate: "{{ frequency / 2 }}"
