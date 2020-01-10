@@ -8,4 +8,4 @@ voctomix:
   host: 10.42.0.10
   port: 10001
 
-video_delay: 10000
+video_delay: 0
