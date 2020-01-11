@@ -11,6 +11,9 @@ sources:
 - Grabber
 - Camera2
 
+audio_delay: 20000
+video_delay: 20000
+
 blackmagic:
   urls:
     - http://gw/bm/Blackmagic_Desktop_Video_Linux_11.4/deb/x86_64/desktopvideo_11.4a14_amd64.deb
@@ -30,9 +33,6 @@ streaming:
     audio_bitrate: 128000 # bps
     keyframe_period: 60 # seconds
   mix_channels: false
-
-audio_delay: 20000
-video_delay: 20000
 
   rtmp:
     vaapi: true
