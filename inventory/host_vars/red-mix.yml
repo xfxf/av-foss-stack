@@ -32,6 +32,10 @@ streaming:
     audio_bitrate: 128000 # bps
     keyframe_period: 60 # seconds
   mix_channels: false
+
+audio_delay: 20000
+video_delay: 20000
+
   rtmp:
     vaapi: true
     location: !vault |

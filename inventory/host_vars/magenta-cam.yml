@@ -1,0 +1,11 @@
+---
+room_name: room9
+irc_room_channel: "#lca2020"
+irc_nick: lcaav-room9-g
+
+static_ip: 10.42.0.91
+voctomix:
+  host: 10.42.0.90
+  port: 10001
+
+video_delay: 9000

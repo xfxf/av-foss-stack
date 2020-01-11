@@ -21,6 +21,10 @@ staticips:
     ip: 10.42.0.90
     mac: 3c:97:0e:7f:d8:c0
 
+  - hostname: magenta-cam # Lenovo T410
+    ip: 10.42.0.91
+    mac: f0:de:f1:49:04:ce
+
   - hostname: orange-mix # Lenovo W530
     ip: 10.42.0.50
     mac: 3c:97:0e:9d:af:50

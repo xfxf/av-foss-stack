@@ -20,6 +20,7 @@ red-cam2
 yellow-cam
 blue-mix
 magenta-mix
+magenta-cam
 orange-mix
 red-mix
 yellow-mix
@@ -38,6 +39,7 @@ test-station
 blue-mix
 blue-cam 
 magenta-mix
+magenta-cam
 orange-mix
 orange-cam
 red-mix
