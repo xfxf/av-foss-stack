@@ -1,0 +1,11 @@
+---
+room_name: roomSpare
+irc_room_channel: "#lca2020"
+irc_nick: lcaav-roomSpare-g
+
+static_ip: 10.42.0.31
+voctomix:
+  host: 10.42.0.30
+  port: 10001
+
+video_delay: 9000

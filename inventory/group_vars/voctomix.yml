@@ -13,6 +13,7 @@ voctomix:
   autostart_gui: false
   host: localhost
   port: 10000
+  loop_url: "http://gw/media/lca2020-brb-720p.png"
 
 alsa_device: hw:1,0
 audio_delay: 0

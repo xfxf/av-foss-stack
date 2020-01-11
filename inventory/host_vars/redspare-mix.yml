@@ -4,6 +4,8 @@ room_name: arena
 irc_room_channel: "#lca2020"
 irc_nick: lcaav-arena
 
+debian_version: buster
+
 sources:
 - Camera1
 - Grabber
@@ -33,6 +35,7 @@ streaming:
     audio_bitrate: 128000 # bps
     keyframe_period: 60 # seconds
   mix_channels: false
+
   rtmp:
     vaapi: true
     location: !vault |

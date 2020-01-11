@@ -37,6 +37,10 @@ staticips:
     ip: 10.42.0.10
     mac: 68:05:ca:57:d7:9f 
 
+  - hostname: redspare-mix 
+    ip: 10.42.0.13
+    mac: 64:00:6a:8a:44:33
+
   - hostname: red-grab # Lenovo T410
     ip: 10.42.0.11
     mac: f0:de:f1:3e:8d:ae
@@ -60,6 +64,14 @@ staticips:
   - hostname: green-cam # Lenovo W530
     ip: 10.42.0.71
     mac: f0:de:f1:49:72:35
+
+  - hostname: spare-mix # Lenovo T410
+    ip: 10.42.0.30
+    mac: f0:de:f1:49:72:60
+
+  - hostname: spare-cam # Lenovo T61p
+    ip: 10.42.0.31
+    mac: 00:1e:37:90:18:14
 
   write_hosts: true
   write_interfaces: true
