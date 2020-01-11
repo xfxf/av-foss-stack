@@ -4,8 +4,6 @@ room_name: arena
 irc_room_channel: "#lca2020"
 irc_nick: lcaav-arena
 
-debian_version: buster
-
 sources:
 - Camera1
 - Grabber
