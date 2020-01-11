@@ -12,6 +12,7 @@ red-mix
 redspare-mix
 yellow-mix
 green-mix
+spare-mix
 
 [opsis]
 blue-cam
@@ -28,6 +29,8 @@ redspare-mix
 yellow-mix
 green-mix
 green-cam
+spare-cam
+spare-mix
 
 [veyepar-basic]
 #gw
@@ -53,6 +56,8 @@ yellow-cam
 green-mix
 green-cam
 test-station
+spare-cam
+spare-mix
 
 [onsite]
 
