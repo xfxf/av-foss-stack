@@ -1,0 +1,49 @@
+---
+room_name: arena
+
+irc_room_channel: "#lca2020"
+irc_nick: lcaav-arena
+
+debian_version: buster
+
+sources:
+- Camera1
+- Grabber
+- Camera2
+
+audio_delay: 20000
+video_delay: 20000
+
+blackmagic:
+  urls:
+    - http://gw/bm/Blackmagic_Desktop_Video_Linux_11.4/deb/x86_64/desktopvideo_11.4a14_amd64.deb
+    - http://gw/bm/Blackmagic_Desktop_Video_Linux_11.4/deb/x86_64/desktopvideo-gui_11.4a14_amd64.deb
+  dkms_version: 11.4a14
+
+blackmagic_sources:
+- card: 0
+  connection: SDI
+  mode: 720p50
+  video_elements: "queue max-size-time=4000000000 max-size-bytes=209715200"
+  audio: true
+  audio_elements: "queue max-size-time=4000000000"
+
+streaming:
+  method: rtmp
+  hq_config:
+    video_bitrate: 2000 # kbps
+    audio_bitrate: 128000 # bps
+    keyframe_period: 60 # seconds
+  mix_channels: false
+
+  rtmp:
+    vaapi: true
+    location: !vault |
+          $ANSIBLE_VAULT;1.1;AES256
+          36663664393635376634616635613139343865393733363637643634653035303662653863383661
+          3163653562643432363236306531343461386364633165660a346465353736306435646436633564
+          62396664323461616633666534373839373032346233316264316334336264663337366461313635
+          6435393834623563300a343638666561643530666433306535663635373539313662636538646130
+          31336436303266383030626161666466386533353835663030366430653038623434396264343034
+          64373339656434633436653666393664323539393061343861366430653565653664343637303761
+          626364653232663962313465613365393134

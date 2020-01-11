@@ -37,6 +37,10 @@ staticips:
     ip: 10.42.0.10
     mac: 68:05:ca:57:d7:9f 
 
+  - hostname: redspare-mix 
+    ip: 10.42.0.10
+    mac: 64:00:6a:8a:44:33
+
   - hostname: red-grab # Lenovo T410
     ip: 10.42.0.11
     mac: f0:de:f1:3e:8d:ae
