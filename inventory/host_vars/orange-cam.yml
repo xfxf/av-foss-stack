@@ -1,6 +1,8 @@
 ---
 room_name: room5
-irc_room_channel: "#lca2020"
+irc:
+  global_channels:
+    - "#lca2020"
 irc_nick: lcaav-room5-g
 
 static_ip: 10.42.0.51

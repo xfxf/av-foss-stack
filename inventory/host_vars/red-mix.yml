@@ -1,7 +1,9 @@
 ---
 room_name: arena
 
-irc_room_channel: "#lca2020"
+irc:
+  global_channels:
+    - "#lca2020"
 irc_nick: lcaav-arena
 
 sources:
