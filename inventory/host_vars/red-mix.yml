@@ -23,8 +23,10 @@ blackmagic:
 blackmagic_sources:
 - card: 0
   connection: SDI
-  audio: true
   mode: 720p50
+  video_elements: "queue max-size-time=4000000000 max-size-bytes=209715200"
+  audio: true
+  audio_elements: "queue max-size-time=4000000000"
 
 streaming:
   method: rtmp
