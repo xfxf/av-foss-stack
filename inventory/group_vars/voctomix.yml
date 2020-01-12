@@ -28,3 +28,11 @@ streaming:
   rtmp:
     location: ""
     vaapi: true
+
+irc:
+  network: freenode
+  server: chat.freenode.net
+  ssl_port: 6697
+  global_channels:
+    - "#lca-av"
+
