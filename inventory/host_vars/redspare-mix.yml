@@ -22,7 +22,7 @@ blackmagic_sources:
 - card: 0
   connection: SDI
   mode: 720p50
-  video_elements: "queue max-size-time=4000000000 max-size-bytes=209715200"
+  video_elements: "queue max-size-time=4000000000 max-size-bytes=209715200 ! videoconvert ! videorate"
   audio: true
   audio_elements: "queue max-size-time=4000000000"
 
