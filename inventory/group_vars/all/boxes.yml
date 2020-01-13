@@ -73,5 +73,9 @@ staticips:
     ip: 10.42.0.31
     mac: 00:1e:37:90:18:14
 
+  - hostname: speek-test # Lenovo T61p
+    ip: 10.42.0.20
+    mac: 00:1e:37:8c:e1:3f
+
   write_hosts: true
   write_interfaces: true
