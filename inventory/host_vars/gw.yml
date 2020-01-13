@@ -27,3 +27,5 @@ eth_uplink_mac_address: 60:a4:4c:b0:89:49
 eth_uplink_static: False
 
 debian_version: buster
+
+nfs_server: gw

@@ -8,6 +8,4 @@ time_zone: Australia/Brisbane
 
 domain: private.lan
 
-nfs_server: gw
-
 debian_version: stretch

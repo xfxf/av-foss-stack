@@ -36,3 +36,9 @@ irc:
   global_channels:
     - "#lca-av"
 
+nfs_server: gw
+
+# Late night, early morning
+rsync_excludes:
+- "0[0-7]_*.ts"
+- "2[0-3]_*.ts"
