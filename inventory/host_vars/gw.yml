@@ -29,6 +29,8 @@ eth_uplink_static: False
 debian_version: buster
 
 nfs_server: gw
+storage_username: juser
+
 voctomix:
   framerate: 25
 
