@@ -31,3 +31,6 @@ debian_version: buster
 nfs_server: gw
 voctomix:
   framerate: 25
+
+veyepar_url: https://veyepar.nextdayvideo.com
+
