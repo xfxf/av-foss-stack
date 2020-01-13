@@ -30,6 +30,7 @@ debian_version: buster
 
 nfs_server: gw
 storage_username: juser
+storage_userid: 1001
 
 voctomix:
   framerate: 25
