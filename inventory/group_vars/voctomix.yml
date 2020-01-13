@@ -36,7 +36,9 @@ irc:
   global_channels:
     - "#lca-av"
 
+# videoteam-copy-recordings settings
 nfs_server: gw
+storage_user: juser
 
 # Late night, early morning
 rsync_excludes:
