@@ -37,3 +37,5 @@ voctomix:
 
 veyepar_url: https://veyepar.nextdayvideo.com
 
+upload_formats:
+  - mp4
