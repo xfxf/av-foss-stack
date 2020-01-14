@@ -1,0 +1,6 @@
+
+upload_formats:
+  - mp4
+# videoteam-copy-recordings settings
+nfs_server: gw
+storage_username: videoteam
