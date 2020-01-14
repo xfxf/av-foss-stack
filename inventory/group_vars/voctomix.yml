@@ -45,3 +45,6 @@ rsync_excludes:
 - "0[0-7]_*.ts"
 - "2[0-3]_*.ts"
 
+voctolights:
+- camera: Camera
+  plugin: tomu
