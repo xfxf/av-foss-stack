@@ -38,9 +38,10 @@ irc:
 
 # videoteam-copy-recordings settings
 nfs_server: gw
-storage_username: juser
+storage_username: videoteam
 
 # Late night, early morning
 rsync_excludes:
 - "0[0-7]_*.ts"
 - "2[0-3]_*.ts"
+

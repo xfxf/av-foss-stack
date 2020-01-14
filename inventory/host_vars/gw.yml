@@ -28,9 +28,11 @@ eth_uplink_static: False
 
 debian_version: buster
 
+user_name: videoteam
+
 nfs_server: gw
-storage_username: juser
-storage_userid: 1001
+storage_username: videoteam
+storage_userid: 1000
 
 voctomix:
   framerate: 25
