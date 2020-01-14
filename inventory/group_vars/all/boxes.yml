@@ -78,7 +78,7 @@ staticips:
     mac: 00:1e:37:8c:e1:3f
 
   - hostname: encoder1
-    ip: 10.42.0.30
+    ip: 10.42.0.40
     mac: 34:17:eb:bb:49:17
 
   write_hosts: true
