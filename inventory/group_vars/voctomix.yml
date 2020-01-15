@@ -35,6 +35,7 @@ irc:
   ssl_port: 6697
   global_channels:
     - "#lca-av"
+  notification_sound: icq.ogg
 
 # videoteam-copy-recordings settings
 nfs_server: gw
