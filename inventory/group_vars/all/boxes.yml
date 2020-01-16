@@ -67,7 +67,7 @@ staticips:
 
   - hostname: spare-mix # Lenovo W530
     ip: 10.42.0.30
-    mac: ac:97:0e:a8:5e:44
+    mac: 3c:97:0e:a8:5e:44
 
   - hostname: spare-cam # Lenovo T61p
     ip: 10.42.0.31
