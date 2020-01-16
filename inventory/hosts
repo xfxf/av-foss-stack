@@ -36,6 +36,7 @@ gw
 [veyepar-encoder-nfs-storage]
 redspare-mix
 encoder1
+encoder2
 
 [test-station]
 speek-test
