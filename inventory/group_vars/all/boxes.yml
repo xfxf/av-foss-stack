@@ -85,5 +85,9 @@ staticips:
     ip: 10.42.0.41
     mac: 0c:c4:7a:a3:25:8a
 
+  - hostname: encoder3
+    ip: 10.42.0.42
+    mac: 0c:c4:7a:a3:25:50
+
   write_hosts: true
   write_interfaces: true

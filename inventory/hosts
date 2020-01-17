@@ -37,6 +37,7 @@ gw
 redspare-mix
 encoder1
 encoder2
+encoder3
 
 [test-station]
 speek-test
